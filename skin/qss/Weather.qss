@@ -1,0 +1,21 @@
+/*背景颜色*/
+CWeather QWidget#widget
+{
+
+
+	background-image: url(:/background.png); /*下图中的圆形头像*/
+
+
+}
+
+CWeather QPushButton#btnSearch
+{
+	background-color: rgba(157, 133, 255,0);
+	background-image: url(:/skin/search.png);
+}
+
+QLabel#lblTypeIcon
+{
+	background-image: url(:/skin/DuoYun.png);
+}
+
