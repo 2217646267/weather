@@ -102,6 +102,7 @@
     <QtRcc Include="CWeather.qrc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CWeatchTool.h" />
     <ClInclude Include="loadfileqss.h" />
     <ClInclude Include="WeatherData.h" />
   </ItemGroup>

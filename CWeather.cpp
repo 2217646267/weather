@@ -3,6 +3,7 @@
 #include <QJsonDocument>
 #include <QJsonArray>
 #include <QJsonObject>
+#include "CWeatchTool.h"
 
 CWeather::CWeather(QWidget *parent)
 	: QMainWindow(parent)
@@ -13,8 +14,8 @@ CWeather::CWeather(QWidget *parent)
 	InitView();
 	InitConnect();
 	//发送天气请求
-	//SedWeatherRequest("101010100");
-	SedWeatherRequest("101280101");
+	SedWeatherRequest("广州");
+
 }
 
 void CWeather::mousePressEvent(QMouseEvent* event)
@@ -64,6 +65,8 @@ void CWeather::InitConnect()
 		qApp->exit(0); 
 		});
 	connect(m_NetAccessManager, &QNetworkAccessManager::finished, this, &CWeather::SlotRelied);
+
+	connect(ui.btnSearch, &QPushButton::clicked, this, &CWeather::SlotSearch);
 }
 
 void CWeather::contextMenuEvent(QContextMenuEvent* event) {
@@ -71,8 +74,16 @@ void CWeather::contextMenuEvent(QContextMenuEvent* event) {
 	event->accept();
 }
 
-void CWeather::SedWeatherRequest(const QString& strCityCode)
+void CWeather::SedWeatherRequest(const QString& strCityName)
 {
+	QString strCityCode = CWearherTool::GetCityCode(strCityName);
+
+	if (strCityCode.isEmpty())
+	{
+		QMessageBox::warning(this, "天气", "请检查是否正确", QMessageBox::Ok);
+		return;
+
+	}
 	QUrl url("http://t.weather.itboy.net/api/weather/city/" + strCityCode);
 	m_NetAccessManager->get(QNetworkRequest(url));
 }
@@ -138,7 +149,8 @@ void CWeather::parseJson(QByteArray& byteArray)
 	
 	//3.解析今天的数据
 	mToDay.strGanmao = ObjData.value("ganmao").toString();
-	mToDay.nWendu = ObjData.value("wendu").toInt();
+	QString strWenDu = ObjData.value("wendu").toString();
+	mToDay.nWendu = strWenDu.toInt();
 	mToDay.strShidu = ObjData.value("shidu").toString();
 	mToDay.nPm25 = ObjData.value("pm25").toInt();
 	mToDay.strQuelity = ObjData.value("quality").toString(); 
@@ -159,9 +171,7 @@ void CWeather::UpdataUI()
 	ui.lblDate->setText(QDateTime::fromString(mToDay.strDate, "yyyyMMdd").toString("yyyy/MM/dd") + " " + mDay[1].strWeek);
 	ui.lblCity->setText(mToDay.strCity);
 
-	qDebug() << mToDay.strType;
-	ui.lblTypeIcon->setPixmap(mTypeMap[mToDay.strType]);
-	qDebug() << mToDay.nWendu;
+	ui.lblTypeIcon->setPixmap(mTypeMap[mToDay.strType]);	
 	ui.lblTemp->setText(QString::number(mToDay.nWendu));	
 	ui.lblLowHigh->setText(QString::number(mToDay.nLow) + "~" + QString::number(mToDay.nHigh));
 
@@ -245,4 +255,15 @@ void CWeather::SlotRelied(QNetworkReply* m_NewReply)
 		parseJson(ByteArray);
 	}
 	m_NewReply->deleteLater();
+}
+
+void CWeather::SlotSearch()
+{
+	if (ui.leCity->text().isEmpty())
+	{
+		return;
+	}
+	SedWeatherRequest(ui.leCity->text());
+	ui.leCity->text().clear();
+
 }

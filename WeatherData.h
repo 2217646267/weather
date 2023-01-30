@@ -9,12 +9,12 @@ public:
 		strDate = "2022-10-20";
 		strCity = "广州";
 		strGanmao = "感冒指数";
-		nWendu = 0;
+		nWendu = -99;
 		strShidu = "0%";
 		strQuelity = "暂无数据";
 		strType = "多云";
-		strFx = "多云";
-		strFl = "多云";
+		strFx = "风向";
+		strFl = "风力";
 		nHigh = 30;
 		nLow = 18;
 	}

@@ -54,5 +54,8 @@
     <ClInclude Include="WeatherData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CWeatchTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

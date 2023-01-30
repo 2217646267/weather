@@ -31,10 +31,11 @@ private:
 	void InitView();
 	void InitConnect();
 	//发送请求
-	void SedWeatherRequest(const QString& strCityCode);
+	void SedWeatherRequest(const QString& strCityName);
 	//解析json数据
 	void parseJson(QByteArray &byteArray);
 	void UpdataUI();
+	void SlotSearch();
 private:
 	QMenu* m_ExitMenu = nullptr;
 	QAction* m_ExitAct = nullptr;	
@@ -62,5 +63,4 @@ private:
 	QMap<int, QString> pMapAqi;
 	//<天气类型， 对应图标>
 	QMap<QString, QString> mTypeMap;
-
 };
