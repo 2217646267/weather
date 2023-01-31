@@ -1,2 +1,5 @@
-﻿  CWeather.cpp
+﻿  moc CWeather.h
+  CWeather.cpp
+  main.cpp
+  moc_CWeather.cpp
   CWeather.vcxproj -> F:\code\vs_project\Weather\CWeather\x64\Debug\CWeather.exe

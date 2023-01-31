@@ -244,7 +244,7 @@ void CWeather::UpdataUI()
 				mAqiList[i]->setStyleSheet("background-color: rgb(110, 0, 0);");
 			}
 		}
-	}	
+	}	 
 
 	update();
 }
@@ -262,6 +262,7 @@ void CWeather::SlotRelied(QNetworkReply* m_NewReply)
 		QByteArray ByteArray = m_NewReply->readAll();
 		parseJson(ByteArray);
 	}
+
 	m_NewReply->deleteLater();
 }
 
@@ -278,20 +279,20 @@ void CWeather::SlotSearch()
 bool CWeather::eventFilter(QObject* watched, QEvent* event)
 {
 	if (watched == ui.lblHighCurve && event->type() == QEvent::Paint)
-	{
-		PainterHightCurve();
+	{		
+		PainterWeatcherCurve(ui.lblHighCurve);
 	}
 	if (watched == ui.lblLowCurve && event->type() == QEvent::Paint)
 	{
-		PainterLowCurve();
+		PainterWeatcherCurve(ui.lblLowCurve);
 	}
 
 	return QWidget::eventFilter(watched, event);
 }
 
-void  CWeather::PainterHightCurve()
+void  CWeather::PainterWeatcherCurve(QLabel* pDrawLabel)
 {	
-	QPainter painter(ui.lblHighCurve);
+	QPainter painter(pDrawLabel);
 	painter.setRenderHint(QPainter::Antialiasing, true);
 
 	//1.获取	x的坐标
@@ -300,7 +301,7 @@ void  CWeather::PainterHightCurve()
 	for (int i = 0; i < 6; i++)
 	{		
 		//星期标签的一半 减去 点的大小
-		PointX[i] =( mWeekList[i]->pos().x() + mWeekList[i]->width() / 2) - INCREMENT;
+		PointX[i] =(mWeekList[i]->pos().x() + mWeekList[i]->width() / 2) - INCREMENT;
 	}
 	
 	//7天天气的总和
@@ -309,7 +310,15 @@ void  CWeather::PainterHightCurve()
 	int nAverage = 0;
 	for (int i = 0; i < 6; i++)
 	{		
-		nSumTotal += mDay[i].nHigh;				
+		if (pDrawLabel->objectName().compare("lblHighCurve") == 0)
+		{
+			nSumTotal += mDay[i].nHigh;			
+			m_DrawColor = QColor(255, 170, 0);
+		}
+		else {			
+			nSumTotal += mDay[i].nLow;
+			m_DrawColor = QColor(0, 255, 255);
+		}
 	}
 	
 	nAverage = nSumTotal / 6;
@@ -317,20 +326,28 @@ void  CWeather::PainterHightCurve()
 	//开始绘画
 	QPen pen = painter.pen();
 	pen.setWidth(1);
-	pen.setColor(QColor(255, 170, 0));
+	pen.setColor(m_DrawColor);
 
 	painter.setPen(pen);
-	painter.setBrush(QColor(255, 170, 0));
+	painter.setBrush(m_DrawColor);
 
 	//2.获取	y的坐标
 	int PointY[6] = { 0 };
 	for (int i = 0; i < 6; i++)
 	{
-		PointY[i] = (ui.lblHighCurve->height() / 2) - ((mDay[i].nHigh - nAverage ) * INCREMENT);
+		if (pDrawLabel->objectName().compare("lblHighCurve") == 0)
+		{
+			PointY[i] = (ui.lblHighCurve->height() / 2) - ((mDay[i].nHigh - nAverage) * INCREMENT);
+			//显示圆的温度
+			painter.drawText(QPoint(PointX[i] - 8, PointY[i] - 12), QString::number(mDay[i].nHigh));
+		}
+		else {
+			PointY[i] = (ui.lblLowCurve->height() / 2) - ((mDay[i].nLow - nAverage) * INCREMENT);
+			//显示圆的温度
+			painter.drawText(QPoint(PointX[i] - 8, PointY[i] - 12), QString::number(mDay[i].nLow));
+		}	
 		//画圆
-		painter.drawEllipse(QPoint(PointX[i], PointY[i]), 3, 3);
-		//显示圆的温度
-		painter.drawText(QPoint(PointX[i] - 8, PointY[i] - 12), QString::number(mDay[i].nHigh));
+		painter.drawEllipse(QPoint(PointX[i], PointY[i]), 3, 3);		
 	}
 
 	//3.绘制直线	
@@ -348,65 +365,4 @@ void  CWeather::PainterHightCurve()
 		}
 		painter.drawLine(PointX[i], PointY[i], PointX[i+1], PointY[i+1]);
 	}	
-}
-
-void  CWeather::PainterLowCurve()
-{
-	QPainter painter(ui.lblLowCurve);
-	painter.setRenderHint(QPainter::Antialiasing, true);
-
-	//1.获取	x的坐标
-	int PointX[6] = { 0 };
-
-	for (int i = 0; i < 6; i++)
-	{
-		//星期标签的一半 减去 点的大小
-		PointX[i] = (mWeekList[i]->pos().x() + mWeekList[i]->width() / 2) - INCREMENT;
-	}
-
-	//7天天气的总和
-	int	nSumTotal = 0;
-	//平均数量
-	int nAverage = 0;
-	for (int i = 0; i < 6; i++)
-	{
-		nSumTotal += mDay[i].nLow;
-	}
-
-	nAverage = nSumTotal / 6;
-
-	//开始绘画
-	QPen pen = painter.pen();
-	pen.setWidth(1);
-	pen.setColor(QColor(0, 255, 255));
-
-	painter.setPen(pen);
-	painter.setBrush(QColor(0, 255, 255));
-
-	//2.获取	y的坐标
-	int PointY[6] = { 0 };
-	for (int i = 0; i < 6; i++)
-	{
-		PointY[i] = (ui.lblLowCurve->height() / 2) - ((mDay[i].nLow - nAverage) * INCREMENT);
-		//画圆
-		painter.drawEllipse(QPoint(PointX[i], PointY[i]), 3, 3);
-		//显示圆的温度
-		painter.drawText(QPoint(PointX[i] - 8, PointY[i] - 12), QString::number(mDay[i].nLow));
-	}
-
-	//3.绘制直线	
-	for (int i = 0; i < 5; i++)
-	{
-		if (i == 0)
-		{
-			pen.setStyle(Qt::DotLine);
-			painter.setPen(pen);
-		}
-		else
-		{
-			pen.setStyle(Qt::SolidLine);
-			painter.setPen(pen);
-		}
-		painter.drawLine(PointX[i], PointY[i], PointX[i + 1], PointY[i + 1]);
-	}
 }

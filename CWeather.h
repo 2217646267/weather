@@ -37,15 +37,15 @@ private slots:
 	void UpdataUI();
 	void SlotSearch();
 
-	//绘画高温函数
-	void PainterHightCurve();
-	//绘画低温函数
-	void PainterLowCurve();
+	//绘画天气曲线函数
+	void PainterWeatcherCurve(QLabel* pDrawLabel);
 private:
 	QMenu* m_ExitMenu = nullptr;
 	QAction* m_ExitAct = nullptr;	
 	QNetworkAccessManager* m_NetAccessManager = nullptr;
 	QPoint m_nPoint;
+	//画天气曲线颜色
+	QColor m_DrawColor = QColor(255, 170, 0);
 
 	Today mToDay;
 	//存放一周的数据 0昨天 1今天......

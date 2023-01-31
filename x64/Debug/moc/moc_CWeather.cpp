@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_CWeather_t {
-    QByteArrayData data[16];
-    char stringdata0[184];
+    QByteArrayData data[17];
+    char stringdata0[190];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -46,16 +46,17 @@ QT_MOC_LITERAL(10, 108, 11), // "QByteArray&"
 QT_MOC_LITERAL(11, 120, 9), // "byteArray"
 QT_MOC_LITERAL(12, 130, 8), // "UpdataUI"
 QT_MOC_LITERAL(13, 139, 10), // "SlotSearch"
-QT_MOC_LITERAL(14, 150, 17), // "PainterHightCurve"
-QT_MOC_LITERAL(15, 168, 15) // "PainterLowCurve"
+QT_MOC_LITERAL(14, 150, 20), // "PainterWeatcherCurve"
+QT_MOC_LITERAL(15, 171, 7), // "QLabel*"
+QT_MOC_LITERAL(16, 179, 10) // "pDrawLabel"
 
     },
     "CWeather\0SlotRelied\0\0QNetworkReply*\0"
     "m_NewReply\0InitView\0InitConnect\0"
     "SedWeatherRequest\0strCityName\0parseJson\0"
     "QByteArray&\0byteArray\0UpdataUI\0"
-    "SlotSearch\0PainterHightCurve\0"
-    "PainterLowCurve"
+    "SlotSearch\0PainterWeatcherCurve\0QLabel*\0"
+    "pDrawLabel"
 };
 #undef QT_MOC_LITERAL
 
@@ -65,7 +66,7 @@ static const uint qt_meta_data_CWeather[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       9,   14, // methods
+       8,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -73,15 +74,14 @@ static const uint qt_meta_data_CWeather[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    1,   59,    2, 0x08 /* Private */,
-       5,    0,   62,    2, 0x08 /* Private */,
-       6,    0,   63,    2, 0x08 /* Private */,
-       7,    1,   64,    2, 0x08 /* Private */,
-       9,    1,   67,    2, 0x08 /* Private */,
-      12,    0,   70,    2, 0x08 /* Private */,
-      13,    0,   71,    2, 0x08 /* Private */,
-      14,    0,   72,    2, 0x08 /* Private */,
-      15,    0,   73,    2, 0x08 /* Private */,
+       1,    1,   54,    2, 0x08 /* Private */,
+       5,    0,   57,    2, 0x08 /* Private */,
+       6,    0,   58,    2, 0x08 /* Private */,
+       7,    1,   59,    2, 0x08 /* Private */,
+       9,    1,   62,    2, 0x08 /* Private */,
+      12,    0,   65,    2, 0x08 /* Private */,
+      13,    0,   66,    2, 0x08 /* Private */,
+      14,    1,   67,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3,    4,
@@ -91,8 +91,7 @@ static const uint qt_meta_data_CWeather[] = {
     QMetaType::Void, 0x80000000 | 10,   11,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 15,   16,
 
        0        // eod
 };
@@ -110,8 +109,7 @@ void CWeather::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         case 4: _t->parseJson((*reinterpret_cast< QByteArray(*)>(_a[1]))); break;
         case 5: _t->UpdataUI(); break;
         case 6: _t->SlotSearch(); break;
-        case 7: _t->PainterHightCurve(); break;
-        case 8: _t->PainterLowCurve(); break;
+        case 7: _t->PainterWeatcherCurve((*reinterpret_cast< QLabel*(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
@@ -122,6 +120,13 @@ void CWeather::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
             default: *reinterpret_cast<int*>(_a[0]) = -1; break;
             case 0:
                 *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QNetworkReply* >(); break;
+            }
+            break;
+        case 7:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QLabel* >(); break;
             }
             break;
         }
@@ -157,13 +162,13 @@ int CWeather::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 9)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 9;
+        _id -= 8;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 9)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 9;
+        _id -= 8;
     }
     return _id;
 }

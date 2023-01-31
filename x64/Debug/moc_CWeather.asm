@@ -6,14 +6,14 @@ INCLUDELIB MSVCRTD
 INCLUDELIB OLDNAMES
 
 CONST	SEGMENT
-$SG164126 DB	'invalid argument', 00H
+$SG164264 DB	'invalid argument', 00H
 	ORG $+3
-$SG164127 DB	'%s', 00H
+$SG164265 DB	'%s', 00H
 	ORG $+9
-$SG164128 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
+$SG164266 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
 	DB	'unity\VC\Tools\MSVC\14.28.29910\include\xmemory', 00H
 	ORG $+8
-$SG164129 DB	'C', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
+$SG164267 DB	'C', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
 	DB	'g', 00H, 'r', 00H, 'a', 00H, 'm', 00H, ' ', 00H, 'F', 00H, 'i'
 	DB	00H, 'l', 00H, 'e', 00H, 's', 00H, ' ', 00H, '(', 00H, 'x', 00H
 	DB	'8', 00H, '6', 00H, ')', 00H, '\', 00H, 'M', 00H, 'i', 00H, 'c'
@@ -30,7 +30,7 @@ $SG164129 DB	'C', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
 	DB	00H, 'l', 00H, 'u', 00H, 'd', 00H, 'e', 00H, '\', 00H, 'x', 00H
 	DB	'm', 00H, 'e', 00H, 'm', 00H, 'o', 00H, 'r', 00H, 'y', 00H, 00H
 	DB	00H
-$SG164130 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
+$SG164268 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
 	DB	'A', 00H, 'l', 00H, 'l', 00H, 'o', 00H, 'c', 00H, 'a', 00H, 't'
 	DB	00H, 'e', 00H, '_', 00H, 'm', 00H, 'a', 00H, 'n', 00H, 'u', 00H
 	DB	'a', 00H, 'l', 00H, 'l', 00H, 'y', 00H, '_', 00H, 'v', 00H, 'e'
@@ -38,156 +38,169 @@ $SG164130 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
 	DB	'l', 00H, 'i', 00H, 'g', 00H, 'n', 00H, 'e', 00H, 'd', 00H, 00H
 	DB	00H
 	ORG $+2
-$SG164131 DB	'"', 00H, 'i', 00H, 'n', 00H, 'v', 00H, 'a', 00H, 'l', 00H
+$SG164269 DB	'"', 00H, 'i', 00H, 'n', 00H, 'v', 00H, 'a', 00H, 'l', 00H
 	DB	'i', 00H, 'd', 00H, ' ', 00H, 'a', 00H, 'r', 00H, 'g', 00H, 'u'
 	DB	00H, 'm', 00H, 'e', 00H, 'n', 00H, 't', 00H, '"', 00H, 00H, 00H
 	ORG $+10
-$SG164187 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
+$SG164325 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
 	DB	'unity\VC\Tools\MSVC\14.28.29910\include\xlocale', 00H
-$SG166050 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG157909 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+10
-$SG166051 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG157910 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG166052 DB	'qRegisterNormalizedMetaType', 00H
+$SG157911 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG157890 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG166221 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG157891 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG166222 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG157892 DB	'qRegisterNormalizedMetaType', 00H
+$SG166223 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG158242 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG158261 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG158243 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG158262 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG158244 DB	'qRegisterNormalizedMetaType', 00H
+$SG158263 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG158594 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG166529 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG158595 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG166530 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG158596 DB	'qRegisterNormalizedMetaType', 00H
+$SG166531 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG167418 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG158613 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG167419 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG158614 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG167420 DB	'qRegisterNormalizedMetaType', 00H
+$SG158615 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG159595 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG159614 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG159596 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG159615 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG159597 DB	'qRegisterNormalizedMetaType', 00H
+$SG159616 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG159947 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG167917 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG159948 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG167918 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG159949 DB	'qRegisterNormalizedMetaType', 00H
+$SG167919 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG160358 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG159966 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG160359 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG159967 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG160360 DB	'qRegisterNormalizedMetaType', 00H
+$SG159968 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG160377 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+	DB	'ype.h', 00H
+	ORG $+2
+$SG160378 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG160379 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
 ?qt_meta_stringdata_CWeather@@3Uqt_meta_stringdata_CWeather_t@@B DD 0ffffffffH ; qt_meta_stringdata_CWeather
 	DD	08H
 	DD	00H
 	ORG $+4
-	DQ	0000000000000180H
+	DQ	0000000000000198H
 	DD	0ffffffffH
 	DD	0aH
 	DD	00H
 	ORG $+4
-	DQ	0000000000000171H
+	DQ	0000000000000189H
 	DD	0ffffffffH
 	DD	00H
 	DD	00H
 	ORG $+4
-	DQ	0000000000000164H
+	DQ	000000000000017cH
 	DD	0ffffffffH
 	DD	0eH
 	DD	00H
 	ORG $+4
-	DQ	000000000000014dH
+	DQ	0000000000000165H
 	DD	0ffffffffH
 	DD	0aH
 	DD	00H
 	ORG $+4
-	DQ	0000000000000144H
+	DQ	000000000000015cH
 	DD	0ffffffffH
 	DD	08H
 	DD	00H
 	ORG $+4
-	DQ	0000000000000137H
+	DQ	000000000000014fH
 	DD	0ffffffffH
 	DD	0bH
 	DD	00H
 	ORG $+4
-	DQ	0000000000000128H
+	DQ	0000000000000140H
 	DD	0ffffffffH
 	DD	011H
 	DD	00H
 	ORG $+4
-	DQ	000000000000011cH
+	DQ	0000000000000134H
 	DD	0ffffffffH
 	DD	0bH
 	DD	00H
 	ORG $+4
-	DQ	0000000000000116H
+	DQ	000000000000012eH
 	DD	0ffffffffH
 	DD	09H
 	DD	00H
 	ORG $+4
-	DQ	000000000000010aH
+	DQ	0000000000000122H
 	DD	0ffffffffH
 	DD	0bH
 	DD	00H
 	ORG $+4
-	DQ	00000000000000fcH
+	DQ	0000000000000114H
 	DD	0ffffffffH
 	DD	09H
 	DD	00H
 	ORG $+4
-	DQ	00000000000000f0H
+	DQ	0000000000000108H
 	DD	0ffffffffH
 	DD	08H
 	DD	00H
 	ORG $+4
-	DQ	00000000000000e2H
+	DQ	00000000000000faH
 	DD	0ffffffffH
 	DD	0aH
 	DD	00H
 	ORG $+4
-	DQ	00000000000000d3H
+	DQ	00000000000000ebH
 	DD	0ffffffffH
-	DD	011H
+	DD	014H
 	DD	00H
 	ORG $+4
-	DQ	00000000000000c6H
+	DQ	00000000000000deH
 	DD	0ffffffffH
-	DD	0fH
+	DD	07H
 	DD	00H
 	ORG $+4
-	DQ	00000000000000c0H
+	DQ	00000000000000dbH
+	DD	0ffffffffH
+	DD	0aH
+	DD	00H
+	ORG $+4
+	DQ	00000000000000cbH
 	DB	043H
 	DB	057H
 	DB	065H
@@ -345,39 +358,46 @@ $SG160360 DB	'qRegisterNormalizedMetaType', 00H
 	DB	074H
 	DB	065H
 	DB	072H
-	DB	048H
-	DB	069H
-	DB	067H
-	DB	068H
-	DB	074H
-	DB	043H
-	DB	075H
-	DB	072H
-	DB	076H
+	DB	057H
 	DB	065H
-	DB	00H
-	DB	050H
 	DB	061H
-	DB	069H
-	DB	06eH
 	DB	074H
+	DB	063H
+	DB	068H
 	DB	065H
 	DB	072H
-	DB	04cH
-	DB	06fH
-	DB	077H
 	DB	043H
 	DB	075H
 	DB	072H
 	DB	076H
 	DB	065H
 	DB	00H
+	DB	051H
+	DB	04cH
+	DB	061H
+	DB	062H
+	DB	065H
+	DB	06cH
+	DB	02aH
+	DB	00H
+	DB	070H
+	DB	044H
+	DB	072H
+	DB	061H
+	DB	077H
+	DB	04cH
+	DB	061H
+	DB	062H
+	DB	065H
+	DB	06cH
+	DB	00H
+	ORG $+2
 	ORG $+8
 ?qt_meta_data_CWeather@@3QBIB DD 08H			; qt_meta_data_CWeather
 	DD	00H
 	DD	00H
 	DD	00H
-	DD	09H
+	DD	08H
 	DD	0eH
 	DD	00H
 	DD	00H
@@ -389,47 +409,42 @@ $SG160360 DB	'qRegisterNormalizedMetaType', 00H
 	DD	00H
 	DD	01H
 	DD	01H
-	DD	03bH
+	DD	036H
 	DD	02H
 	DD	08H
 	DD	05H
 	DD	00H
-	DD	03eH
+	DD	039H
 	DD	02H
 	DD	08H
 	DD	06H
 	DD	00H
-	DD	03fH
+	DD	03aH
 	DD	02H
 	DD	08H
 	DD	07H
 	DD	01H
-	DD	040H
+	DD	03bH
 	DD	02H
 	DD	08H
 	DD	09H
 	DD	01H
-	DD	043H
+	DD	03eH
 	DD	02H
 	DD	08H
 	DD	0cH
 	DD	00H
-	DD	046H
+	DD	041H
 	DD	02H
 	DD	08H
 	DD	0dH
 	DD	00H
-	DD	047H
+	DD	042H
 	DD	02H
 	DD	08H
 	DD	0eH
-	DD	00H
-	DD	048H
-	DD	02H
-	DD	08H
-	DD	0fH
-	DD	00H
-	DD	049H
+	DD	01H
+	DD	043H
 	DD	02H
 	DD	08H
 	DD	02bH
@@ -446,80 +461,81 @@ $SG160360 DB	'qRegisterNormalizedMetaType', 00H
 	DD	02bH
 	DD	02bH
 	DD	02bH
-	DD	02bH
+	DD	08000000fH
+	DD	010H
 	DD	00H
 	ORG $+4
-$SG160772 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG160791 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG160773 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG160792 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG160774 DB	'qRegisterNormalizedMetaType', 00H
+$SG160793 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG161182 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG161201 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG161183 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG161202 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG161184 DB	'qRegisterNormalizedMetaType', 00H
+$SG161203 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG161534 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG161553 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG161535 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG161554 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG161536 DB	'qRegisterNormalizedMetaType', 00H
+$SG161555 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG162041 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG162060 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG162042 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG162061 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG162043 DB	'qRegisterNormalizedMetaType', 00H
+$SG162062 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG162393 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG162412 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG162394 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG162413 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG162395 DB	'qRegisterNormalizedMetaType', 00H
+$SG162414 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG162745 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG162764 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG162746 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG162765 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG162747 DB	'qRegisterNormalizedMetaType', 00H
+$SG162766 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG163128 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG163147 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG163129 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG163148 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG163130 DB	'qRegisterNormalizedMetaType', 00H
+$SG163149 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG155023 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG155042 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG155024 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG155043 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG155025 DB	'qRegisterNormalizedMetaType', 00H
+$SG155044 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG163538 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG163557 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG163539 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG163558 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG163540 DB	'qRegisterNormalizedMetaType', 00H
+$SG163559 DB	'qRegisterNormalizedMetaType', 00H
 CONST	ENDS
 PUBLIC	?__empty_global_delete@@YAXPEAX@Z		; __empty_global_delete
 PUBLIC	?__empty_global_delete@@YAXPEAX_K@Z		; __empty_global_delete
@@ -542,11 +558,13 @@ PUBLIC	?qt_metacast@CWeather@@UEAAPEAXPEBD@Z		; CWeather::qt_metacast
 PUBLIC	?qt_metacall@CWeather@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z ; CWeather::qt_metacall
 PUBLIC	?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z ; CWeather::qt_static_metacall
 PUBLIC	??$qRegisterMetaType@PEAVQNetworkReply@@@@YAHXZ	; qRegisterMetaType<QNetworkReply *>
+PUBLIC	??$qRegisterMetaType@PEAVQLabel@@@@YAHXZ	; qRegisterMetaType<QLabel *>
 PUBLIC	??$link@$1?staticMetaObject@QMainWindow@@2UQMetaObject@@B@SuperData@QMetaObject@@SA?AU01@XZ ; QMetaObject::SuperData::link<&QMainWindow::staticMetaObject>
 PUBLIC	??$staticMetaObject@$1?staticMetaObject@QMainWindow@@2UQMetaObject@@B@QMetaObject@@SAPEBU0@XZ ; QMetaObject::staticMetaObject<&QMainWindow::staticMetaObject>
 PUBLIC	??$storeRelease@H@?$QAtomicOps@H@@SAXAEAU?$atomic@H@std@@H@Z ; QAtomicOps<int>::storeRelease<int>
 PUBLIC	??$loadAcquire@H@?$QAtomicOps@H@@SAHAEBU?$atomic@H@std@@@Z ; QAtomicOps<int>::loadAcquire<int>
 PUBLIC	??$qMetaTypeId@PEAVQNetworkReply@@@@YAHXZ	; qMetaTypeId<QNetworkReply *>
+PUBLIC	??$qMetaTypeId@PEAVQLabel@@@@YAHXZ		; qMetaTypeId<QLabel *>
 PUBLIC	??$_Atomic_address_as@JU?$_Atomic_padded@H@std@@@std@@YAPECJAEAU?$_Atomic_padded@H@0@@Z ; std::_Atomic_address_as<long,std::_Atomic_padded<int> >
 PUBLIC	??$_Atomic_address_as@HU?$_Atomic_padded@H@std@@@std@@YAPEDHAEBU?$_Atomic_padded@H@0@@Z ; std::_Atomic_address_as<int,std::_Atomic_padded<int> >
 PUBLIC	??$_Atomic_address_as@HU?$_Atomic_padded@H@std@@@std@@YAPECHAEAU?$_Atomic_padded@H@0@@Z ; std::_Atomic_address_as<int,std::_Atomic_padded<int> >
@@ -554,7 +572,18 @@ PUBLIC	??$_Atomic_reinterpret_as@HH@std@@YAHAEBH@Z	; std::_Atomic_reinterpret_as
 PUBLIC	??$_Atomic_reinterpret_as@JH@std@@YAJAEBH@Z	; std::_Atomic_reinterpret_as<long,int>
 PUBLIC	?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQNetworkReply@@$07@@SAHXZ ; QMetaTypeIdQObject<QNetworkReply *,8>::qt_metatype_id
 PUBLIC	?qt_metatype_id@?$QMetaTypeId2@PEAVQNetworkReply@@@@SAHXZ ; QMetaTypeId2<QNetworkReply *>::qt_metatype_id
+PUBLIC	?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ ; QMetaTypeIdQObject<QLabel *,8>::qt_metatype_id
+PUBLIC	?qt_metatype_id@?$QMetaTypeId2@PEAVQLabel@@@@SAHXZ ; QMetaTypeId2<QLabel *>::qt_metatype_id
+PUBLIC	??$qRegisterNormalizedMetaType@PEAVQLabel@@@@YAHAEBVQByteArray@@PEAPEAVQLabel@@W4DefinedType@?$MetaTypeDefinedHelper@PEAVQLabel@@$00@QtPrivate@@@Z ; qRegisterNormalizedMetaType<QLabel *>
 PUBLIC	??$qRegisterNormalizedMetaType@PEAVQNetworkReply@@@@YAHAEBVQByteArray@@PEAPEAVQNetworkReply@@W4DefinedType@?$MetaTypeDefinedHelper@PEAVQNetworkReply@@$00@QtPrivate@@@Z ; qRegisterNormalizedMetaType<QNetworkReply *>
+PUBLIC	?qt_metatype_id@?$QMetaTypeIdHelper@PEAVQLabel@@$00@QtPrivate@@SAHXZ ; QtPrivate::QMetaTypeIdHelper<QLabel *,1>::qt_metatype_id
+PUBLIC	?Destruct@?$QMetaTypeFunctionHelper@PEAVQLabel@@$00@QtMetaTypePrivate@@SAXPEAX@Z ; QtMetaTypePrivate::QMetaTypeFunctionHelper<QLabel *,1>::Destruct
+PUBLIC	?Construct@?$QMetaTypeFunctionHelper@PEAVQLabel@@$00@QtMetaTypePrivate@@SAPEAXPEAXPEBX@Z ; QtMetaTypePrivate::QMetaTypeFunctionHelper<QLabel *,1>::Construct
+PUBLIC	?value@?$MetaObjectForType@PEAVQLabel@@X@QtPrivate@@SAPEBUQMetaObject@@XZ ; QtPrivate::MetaObjectForType<QLabel *,void>::value
+PUBLIC	?registerConverter@?$SequentialContainerConverterHelper@PEAVQLabel@@$0A@@QtPrivate@@SA_NH@Z ; QtPrivate::SequentialContainerConverterHelper<QLabel *,0>::registerConverter
+PUBLIC	?registerConverter@?$AssociativeContainerConverterHelper@PEAVQLabel@@$0A@@QtPrivate@@SA_NH@Z ; QtPrivate::AssociativeContainerConverterHelper<QLabel *,0>::registerConverter
+PUBLIC	?registerConverter@?$IsPair@PEAVQLabel@@@QtPrivate@@SA_NH@Z ; QtPrivate::IsPair<QLabel *>::registerConverter
+PUBLIC	?registerConverter@?$MetaTypeSmartPointerHelper@PEAVQLabel@@X@QtPrivate@@SA_NH@Z ; QtPrivate::MetaTypeSmartPointerHelper<QLabel *,void>::registerConverter
 PUBLIC	?qt_metatype_id@?$QMetaTypeIdHelper@PEAVQNetworkReply@@$00@QtPrivate@@SAHXZ ; QtPrivate::QMetaTypeIdHelper<QNetworkReply *,1>::qt_metatype_id
 PUBLIC	?Destruct@?$QMetaTypeFunctionHelper@PEAVQNetworkReply@@$00@QtMetaTypePrivate@@SAXPEAX@Z ; QtMetaTypePrivate::QMetaTypeFunctionHelper<QNetworkReply *,1>::Destruct
 PUBLIC	?Construct@?$QMetaTypeFunctionHelper@PEAVQNetworkReply@@$00@QtMetaTypePrivate@@SAPEAXPEAXPEBX@Z ; QtMetaTypePrivate::QMetaTypeFunctionHelper<QNetworkReply *,1>::Construct
@@ -571,6 +600,7 @@ PUBLIC	??_C@_1CO@JOMFDNFG@?$AA?$CC?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAm
 PUBLIC	??_C@_1CG@GPPLBDPC@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAL?$AAo?$AAa?$AAd?$AA_?$AAb?$AAa?$AAr?$AAr@ ; `string'
 PUBLIC	?staticMetaObject@CWeather@@2UQMetaObject@@B	; CWeather::staticMetaObject
 PUBLIC	??_C@_1EG@ILLMNHLF@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAA?$AAt?$AAo?$AAm?$AAi?$AAc?$AA_?$AAs?$AAt@ ; `string'
+PUBLIC	?metatype_id@?1??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4V?$QBasicAtomicInteger@H@@A ; `QMetaTypeIdQObject<QLabel *,8>::qt_metatype_id'::`2'::metatype_id
 PUBLIC	?metatype_id@?1??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQNetworkReply@@$07@@SAHXZ@4V?$QBasicAtomicInteger@H@@A ; `QMetaTypeIdQObject<QNetworkReply *,8>::qt_metatype_id'::`2'::metatype_id
 EXTRN	__imp__invalid_parameter:PROC
 EXTRN	__imp__CrtDbgReport:PROC
@@ -599,14 +629,18 @@ EXTRN	?SedWeatherRequest@CWeather@@AEAAXAEBVQString@@@Z:PROC ; CWeather::SedWeat
 EXTRN	?parseJson@CWeather@@AEAAXAEAVQByteArray@@@Z:PROC ; CWeather::parseJson
 EXTRN	?UpdataUI@CWeather@@AEAAXXZ:PROC		; CWeather::UpdataUI
 EXTRN	?SlotSearch@CWeather@@AEAAXXZ:PROC		; CWeather::SlotSearch
-EXTRN	?PainterHightCurve@CWeather@@AEAAXXZ:PROC	; CWeather::PainterHightCurve
-EXTRN	?PainterLowCurve@CWeather@@AEAAXXZ:PROC		; CWeather::PainterLowCurve
+EXTRN	?PainterWeatcherCurve@CWeather@@AEAAXPEAVQLabel@@@Z:PROC ; CWeather::PainterWeatcherCurve
 EXTRN	__CxxFrameHandler4:PROC
 EXTRN	__imp_?staticMetaObject@QMainWindow@@2UQMetaObject@@B:BYTE
+EXTRN	__imp_?staticMetaObject@QLabel@@2UQMetaObject@@B:BYTE
 EXTRN	__imp_?staticMetaObject@QNetworkReply@@2UQMetaObject@@B:BYTE
 EXTRN	__ImageBase:BYTE
 _BSS	SEGMENT
 ?staticMetaObject@CWeather@@2UQMetaObject@@B DB 030H DUP (?) ; CWeather::staticMetaObject
+_BSS	ENDS
+;	COMDAT ?metatype_id@?1??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4V?$QBasicAtomicInteger@H@@A
+_BSS	SEGMENT
+?metatype_id@?1??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4V?$QBasicAtomicInteger@H@@A DD 01H DUP (?) ; `QMetaTypeIdQObject<QLabel *,8>::qt_metatype_id'::`2'::metatype_id
 _BSS	ENDS
 ;	COMDAT ?metatype_id@?1??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQNetworkReply@@$07@@SAHXZ@4V?$QBasicAtomicInteger@H@@A
 _BSS	SEGMENT
@@ -670,8 +704,8 @@ $pdata$?qt_metacast@CWeather@@UEAAPEAXPEBD@Z DD imagerel $LN5
 $pdata$?qt_metacall@CWeather@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z DD imagerel $LN9
 	DD	imagerel $LN9+174
 	DD	imagerel $unwind$?qt_metacall@CWeather@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-$pdata$?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z DD imagerel $LN27
-	DD	imagerel $LN27+432
+$pdata$?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z DD imagerel $LN31
+	DD	imagerel $LN31+532
 	DD	imagerel $unwind$?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 pdata	ENDS
 ;	COMDAT pdata
@@ -679,6 +713,12 @@ pdata	SEGMENT
 $pdata$??$qRegisterMetaType@PEAVQNetworkReply@@@@YAHXZ DD imagerel $LN3
 	DD	imagerel $LN3+14
 	DD	imagerel $unwind$??$qRegisterMetaType@PEAVQNetworkReply@@@@YAHXZ
+pdata	ENDS
+;	COMDAT pdata
+pdata	SEGMENT
+$pdata$??$qRegisterMetaType@PEAVQLabel@@@@YAHXZ DD imagerel $LN3
+	DD	imagerel $LN3+14
+	DD	imagerel $unwind$??$qRegisterMetaType@PEAVQLabel@@@@YAHXZ
 pdata	ENDS
 ;	COMDAT pdata
 pdata	SEGMENT
@@ -712,6 +752,12 @@ $pdata$??$qMetaTypeId@PEAVQNetworkReply@@@@YAHXZ DD imagerel $LN3
 pdata	ENDS
 ;	COMDAT pdata
 pdata	SEGMENT
+$pdata$??$qMetaTypeId@PEAVQLabel@@@@YAHXZ DD imagerel $LN3
+	DD	imagerel $LN3+14
+	DD	imagerel $unwind$??$qMetaTypeId@PEAVQLabel@@@@YAHXZ
+pdata	ENDS
+;	COMDAT pdata
+pdata	SEGMENT
 $pdata$?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQNetworkReply@@$07@@SAHXZ DD imagerel $LN5
 	DD	imagerel $LN5+189
 	DD	imagerel $unwind$?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQNetworkReply@@$07@@SAHXZ
@@ -730,9 +776,45 @@ $pdata$?qt_metatype_id@?$QMetaTypeId2@PEAVQNetworkReply@@@@SAHXZ DD imagerel $LN
 pdata	ENDS
 ;	COMDAT pdata
 pdata	SEGMENT
+$pdata$?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ DD imagerel $LN5
+	DD	imagerel $LN5+189
+	DD	imagerel $unwind$?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ
+pdata	ENDS
+;	COMDAT pdata
+pdata	SEGMENT
+$pdata$?dtor$0@?0??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4HA DD imagerel ?dtor$0@?0??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4HA
+	DD	imagerel ?dtor$0@?0??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4HA+25
+	DD	imagerel $unwind$?dtor$0@?0??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4HA
+pdata	ENDS
+;	COMDAT pdata
+pdata	SEGMENT
+$pdata$?qt_metatype_id@?$QMetaTypeId2@PEAVQLabel@@@@SAHXZ DD imagerel $LN3
+	DD	imagerel $LN3+14
+	DD	imagerel $unwind$?qt_metatype_id@?$QMetaTypeId2@PEAVQLabel@@@@SAHXZ
+pdata	ENDS
+;	COMDAT pdata
+pdata	SEGMENT
+$pdata$??$qRegisterNormalizedMetaType@PEAVQLabel@@@@YAHAEBVQByteArray@@PEAPEAVQLabel@@W4DefinedType@?$MetaTypeDefinedHelper@PEAVQLabel@@$00@QtPrivate@@@Z DD imagerel $LN11
+	DD	imagerel $LN11+346
+	DD	imagerel $unwind$??$qRegisterNormalizedMetaType@PEAVQLabel@@@@YAHAEBVQByteArray@@PEAPEAVQLabel@@W4DefinedType@?$MetaTypeDefinedHelper@PEAVQLabel@@$00@QtPrivate@@@Z
+pdata	ENDS
+;	COMDAT pdata
+pdata	SEGMENT
 $pdata$??$qRegisterNormalizedMetaType@PEAVQNetworkReply@@@@YAHAEBVQByteArray@@PEAPEAVQNetworkReply@@W4DefinedType@?$MetaTypeDefinedHelper@PEAVQNetworkReply@@$00@QtPrivate@@@Z DD imagerel $LN11
 	DD	imagerel $LN11+346
 	DD	imagerel $unwind$??$qRegisterNormalizedMetaType@PEAVQNetworkReply@@@@YAHAEBVQByteArray@@PEAPEAVQNetworkReply@@W4DefinedType@?$MetaTypeDefinedHelper@PEAVQNetworkReply@@$00@QtPrivate@@@Z
+pdata	ENDS
+;	COMDAT pdata
+pdata	SEGMENT
+$pdata$?qt_metatype_id@?$QMetaTypeIdHelper@PEAVQLabel@@$00@QtPrivate@@SAHXZ DD imagerel $LN3
+	DD	imagerel $LN3+14
+	DD	imagerel $unwind$?qt_metatype_id@?$QMetaTypeIdHelper@PEAVQLabel@@$00@QtPrivate@@SAHXZ
+pdata	ENDS
+;	COMDAT pdata
+pdata	SEGMENT
+$pdata$?Construct@?$QMetaTypeFunctionHelper@PEAVQLabel@@$00@QtMetaTypePrivate@@SAPEAXPEAXPEBX@Z DD imagerel $LN4
+	DD	imagerel $LN4+95
+	DD	imagerel $unwind$?Construct@?$QMetaTypeFunctionHelper@PEAVQLabel@@$00@QtMetaTypePrivate@@SAPEAXPEAXPEBX@Z
 pdata	ENDS
 ;	COMDAT pdata
 pdata	SEGMENT
@@ -820,8 +902,62 @@ $unwind$?qt_metatype_id@?$QMetaTypeIdHelper@PEAVQNetworkReply@@$00@QtPrivate@@SA
 xdata	ENDS
 ;	COMDAT xdata
 xdata	SEGMENT
+$unwind$?Construct@?$QMetaTypeFunctionHelper@PEAVQLabel@@$00@QtMetaTypePrivate@@SAPEAXPEAXPEBX@Z DD 010e01H
+	DD	0620eH
+xdata	ENDS
+;	COMDAT xdata
+xdata	SEGMENT
+$unwind$?qt_metatype_id@?$QMetaTypeIdHelper@PEAVQLabel@@$00@QtPrivate@@SAHXZ DD 010401H
+	DD	04204H
+xdata	ENDS
+;	COMDAT xdata
+xdata	SEGMENT
 $unwind$??$qRegisterNormalizedMetaType@PEAVQNetworkReply@@@@YAHAEBVQByteArray@@PEAPEAVQNetworkReply@@W4DefinedType@?$MetaTypeDefinedHelper@PEAVQNetworkReply@@$00@QtPrivate@@@Z DD 011301H
 	DD	0c213H
+xdata	ENDS
+;	COMDAT xdata
+xdata	SEGMENT
+$unwind$??$qRegisterNormalizedMetaType@PEAVQLabel@@@@YAHAEBVQByteArray@@PEAPEAVQLabel@@W4DefinedType@?$MetaTypeDefinedHelper@PEAVQLabel@@$00@QtPrivate@@@Z DD 011301H
+	DD	0c213H
+xdata	ENDS
+;	COMDAT xdata
+xdata	SEGMENT
+$unwind$?qt_metatype_id@?$QMetaTypeId2@PEAVQLabel@@@@SAHXZ DD 010401H
+	DD	04204H
+xdata	ENDS
+;	COMDAT xdata
+xdata	SEGMENT
+$unwind$?dtor$0@?0??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4HA DD 020601H
+	DD	050023206H
+xdata	ENDS
+;	COMDAT xdata
+xdata	SEGMENT
+$ip2state$?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ DB 06H
+	DB	00H
+	DB	00H
+	DB	084H
+	DB	02H
+	DB	0ceH
+	DB	00H
+xdata	ENDS
+;	COMDAT xdata
+xdata	SEGMENT
+$stateUnwindMap$?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ DB 02H
+	DB	0eH
+	DD	imagerel ?dtor$0@?0??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4HA
+xdata	ENDS
+;	COMDAT xdata
+xdata	SEGMENT
+$cppxdata$?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ DB 028H
+	DD	imagerel $stateUnwindMap$?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ
+	DD	imagerel $ip2state$?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ
+xdata	ENDS
+;	COMDAT xdata
+xdata	SEGMENT
+$unwind$?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ DD 010411H
+	DD	08204H
+	DD	imagerel __CxxFrameHandler4
+	DD	imagerel $cppxdata$?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ
 xdata	ENDS
 ;	COMDAT xdata
 xdata	SEGMENT
@@ -864,6 +1000,11 @@ $unwind$?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQNetworkReply@@$07@@SAHXZ DD 01
 xdata	ENDS
 ;	COMDAT xdata
 xdata	SEGMENT
+$unwind$??$qMetaTypeId@PEAVQLabel@@@@YAHXZ DD 010401H
+	DD	04204H
+xdata	ENDS
+;	COMDAT xdata
+xdata	SEGMENT
 $unwind$??$qMetaTypeId@PEAVQNetworkReply@@@@YAHXZ DD 010401H
 	DD	04204H
 xdata	ENDS
@@ -886,6 +1027,11 @@ xdata	ENDS
 xdata	SEGMENT
 $unwind$??$link@$1?staticMetaObject@QMainWindow@@2UQMetaObject@@B@SuperData@QMetaObject@@SA?AU01@XZ DD 010901H
 	DD	04209H
+xdata	ENDS
+;	COMDAT xdata
+xdata	SEGMENT
+$unwind$??$qRegisterMetaType@PEAVQLabel@@@@YAHXZ DD 010401H
+	DD	04204H
 xdata	ENDS
 ;	COMDAT xdata
 xdata	SEGMENT
@@ -1086,6 +1232,136 @@ $LN3:
 ?qt_metatype_id@?$QMetaTypeIdHelper@PEAVQNetworkReply@@$00@QtPrivate@@SAHXZ ENDP ; QtPrivate::QMetaTypeIdHelper<QNetworkReply *,1>::qt_metatype_id
 _TEXT	ENDS
 ; Function compile flags: /Odtp
+;	COMDAT ?registerConverter@?$MetaTypeSmartPointerHelper@PEAVQLabel@@X@QtPrivate@@SA_NH@Z
+_TEXT	SEGMENT
+__formal$ = 8
+?registerConverter@?$MetaTypeSmartPointerHelper@PEAVQLabel@@X@QtPrivate@@SA_NH@Z PROC ; QtPrivate::MetaTypeSmartPointerHelper<QLabel *,void>::registerConverter, COMDAT
+; File E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetatype.h
+; Line 1715
+	mov	DWORD PTR [rsp+8], ecx
+	xor	al, al
+	ret	0
+?registerConverter@?$MetaTypeSmartPointerHelper@PEAVQLabel@@X@QtPrivate@@SA_NH@Z ENDP ; QtPrivate::MetaTypeSmartPointerHelper<QLabel *,void>::registerConverter
+_TEXT	ENDS
+; Function compile flags: /Odtp
+;	COMDAT ?registerConverter@?$IsPair@PEAVQLabel@@@QtPrivate@@SA_NH@Z
+_TEXT	SEGMENT
+__formal$ = 8
+?registerConverter@?$IsPair@PEAVQLabel@@@QtPrivate@@SA_NH@Z PROC ; QtPrivate::IsPair<QLabel *>::registerConverter, COMDAT
+; File E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetatype.h
+; Line 1700
+	mov	DWORD PTR [rsp+8], ecx
+; Line 1701
+	xor	al, al
+; Line 1702
+	ret	0
+?registerConverter@?$IsPair@PEAVQLabel@@@QtPrivate@@SA_NH@Z ENDP ; QtPrivate::IsPair<QLabel *>::registerConverter
+_TEXT	ENDS
+; Function compile flags: /Odtp
+;	COMDAT ?registerConverter@?$AssociativeContainerConverterHelper@PEAVQLabel@@$0A@@QtPrivate@@SA_NH@Z
+_TEXT	SEGMENT
+__formal$ = 8
+?registerConverter@?$AssociativeContainerConverterHelper@PEAVQLabel@@$0A@@QtPrivate@@SA_NH@Z PROC ; QtPrivate::AssociativeContainerConverterHelper<QLabel *,0>::registerConverter, COMDAT
+; File E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetatype.h
+; Line 1647
+	mov	DWORD PTR [rsp+8], ecx
+; Line 1648
+	xor	al, al
+; Line 1649
+	ret	0
+?registerConverter@?$AssociativeContainerConverterHelper@PEAVQLabel@@$0A@@QtPrivate@@SA_NH@Z ENDP ; QtPrivate::AssociativeContainerConverterHelper<QLabel *,0>::registerConverter
+_TEXT	ENDS
+; Function compile flags: /Odtp
+;	COMDAT ?registerConverter@?$SequentialContainerConverterHelper@PEAVQLabel@@$0A@@QtPrivate@@SA_NH@Z
+_TEXT	SEGMENT
+__formal$ = 8
+?registerConverter@?$SequentialContainerConverterHelper@PEAVQLabel@@$0A@@QtPrivate@@SA_NH@Z PROC ; QtPrivate::SequentialContainerConverterHelper<QLabel *,0>::registerConverter, COMDAT
+; File E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetatype.h
+; Line 1624
+	mov	DWORD PTR [rsp+8], ecx
+; Line 1625
+	xor	al, al
+; Line 1626
+	ret	0
+?registerConverter@?$SequentialContainerConverterHelper@PEAVQLabel@@$0A@@QtPrivate@@SA_NH@Z ENDP ; QtPrivate::SequentialContainerConverterHelper<QLabel *,0>::registerConverter
+_TEXT	ENDS
+; Function compile flags: /Odtp
+;	COMDAT ?value@?$MetaObjectForType@PEAVQLabel@@X@QtPrivate@@SAPEBUQMetaObject@@XZ
+_TEXT	SEGMENT
+?value@?$MetaObjectForType@PEAVQLabel@@X@QtPrivate@@SAPEBUQMetaObject@@XZ PROC ; QtPrivate::MetaObjectForType<QLabel *,void>::value, COMDAT
+; File E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetatype.h
+; Line 1556
+	mov	rax, QWORD PTR __imp_?staticMetaObject@QLabel@@2UQMetaObject@@B
+	ret	0
+?value@?$MetaObjectForType@PEAVQLabel@@X@QtPrivate@@SAPEBUQMetaObject@@XZ ENDP ; QtPrivate::MetaObjectForType<QLabel *,void>::value
+_TEXT	ENDS
+; Function compile flags: /Odtp
+;	COMDAT ?Construct@?$QMetaTypeFunctionHelper@PEAVQLabel@@$00@QtMetaTypePrivate@@SAPEAXPEAXPEBX@Z
+_TEXT	SEGMENT
+$T1 = 32
+$T2 = 40
+where$ = 64
+t$ = 72
+?Construct@?$QMetaTypeFunctionHelper@PEAVQLabel@@$00@QtMetaTypePrivate@@SAPEAXPEAXPEBX@Z PROC ; QtMetaTypePrivate::QMetaTypeFunctionHelper<QLabel *,1>::Construct, COMDAT
+; File E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetatype.h
+; Line 810
+$LN4:
+	mov	QWORD PTR [rsp+16], rdx
+	mov	QWORD PTR [rsp+8], rcx
+	sub	rsp, 56					; 00000038H
+; Line 811
+	cmp	QWORD PTR t$[rsp], 0
+	je	SHORT $LN2@Construct
+; Line 812
+	mov	rdx, QWORD PTR where$[rsp]
+	mov	ecx, 8
+	call	??2@YAPEAX_KPEAX@Z			; operator new
+	mov	QWORD PTR $T1[rsp], rax
+	mov	rax, QWORD PTR $T1[rsp]
+	mov	rcx, QWORD PTR t$[rsp]
+	mov	rcx, QWORD PTR [rcx]
+	mov	QWORD PTR [rax], rcx
+	mov	rax, QWORD PTR $T1[rsp]
+	jmp	SHORT $LN1@Construct
+$LN2@Construct:
+; Line 813
+	mov	rdx, QWORD PTR where$[rsp]
+	mov	ecx, 8
+	call	??2@YAPEAX_KPEAX@Z			; operator new
+	mov	QWORD PTR $T2[rsp], rax
+	mov	rax, QWORD PTR $T2[rsp]
+$LN1@Construct:
+; Line 814
+	add	rsp, 56					; 00000038H
+	ret	0
+?Construct@?$QMetaTypeFunctionHelper@PEAVQLabel@@$00@QtMetaTypePrivate@@SAPEAXPEAXPEBX@Z ENDP ; QtMetaTypePrivate::QMetaTypeFunctionHelper<QLabel *,1>::Construct
+_TEXT	ENDS
+; Function compile flags: /Odtp
+;	COMDAT ?Destruct@?$QMetaTypeFunctionHelper@PEAVQLabel@@$00@QtMetaTypePrivate@@SAXPEAX@Z
+_TEXT	SEGMENT
+t$ = 8
+?Destruct@?$QMetaTypeFunctionHelper@PEAVQLabel@@$00@QtMetaTypePrivate@@SAXPEAX@Z PROC ; QtMetaTypePrivate::QMetaTypeFunctionHelper<QLabel *,1>::Destruct, COMDAT
+; File E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetatype.h
+; Line 804
+	mov	QWORD PTR [rsp+8], rcx
+; Line 807
+	ret	0
+?Destruct@?$QMetaTypeFunctionHelper@PEAVQLabel@@$00@QtMetaTypePrivate@@SAXPEAX@Z ENDP ; QtMetaTypePrivate::QMetaTypeFunctionHelper<QLabel *,1>::Destruct
+_TEXT	ENDS
+; Function compile flags: /Odtp
+;	COMDAT ?qt_metatype_id@?$QMetaTypeIdHelper@PEAVQLabel@@$00@QtPrivate@@SAHXZ
+_TEXT	SEGMENT
+?qt_metatype_id@?$QMetaTypeIdHelper@PEAVQLabel@@$00@QtPrivate@@SAHXZ PROC ; QtPrivate::QMetaTypeIdHelper<QLabel *,1>::qt_metatype_id, COMDAT
+; File E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetatype.h
+; Line 1755
+$LN3:
+	sub	rsp, 40					; 00000028H
+	call	?qt_metatype_id@?$QMetaTypeId2@PEAVQLabel@@@@SAHXZ ; QMetaTypeId2<QLabel *>::qt_metatype_id
+	add	rsp, 40					; 00000028H
+	ret	0
+?qt_metatype_id@?$QMetaTypeIdHelper@PEAVQLabel@@$00@QtPrivate@@SAHXZ ENDP ; QtPrivate::QMetaTypeIdHelper<QLabel *,1>::qt_metatype_id
+_TEXT	ENDS
+; Function compile flags: /Odtp
 ;	COMDAT ??$qRegisterNormalizedMetaType@PEAVQNetworkReply@@@@YAHAEBVQByteArray@@PEAPEAVQNetworkReply@@W4DefinedType@?$MetaTypeDefinedHelper@PEAVQNetworkReply@@$00@QtPrivate@@@Z
 _TEXT	SEGMENT
 id$ = 48
@@ -1123,9 +1399,9 @@ $LN11:
 	jmp	SHORT $LN7@qRegisterN
 $LN6@qRegisterN:
 	mov	r9d, 1821				; 0000071dH
-	lea	r8, OFFSET FLAT:$SG166050
-	lea	rdx, OFFSET FLAT:$SG166051
-	lea	rcx, OFFSET FLAT:$SG166052
+	lea	r8, OFFSET FLAT:$SG166529
+	lea	rdx, OFFSET FLAT:$SG166530
+	lea	rcx, OFFSET FLAT:$SG166531
 	call	QWORD PTR __imp_?qt_assert_x@@YAXPEBD00H@Z
 $LN7@qRegisterN:
 	lea	rcx, QWORD PTR $T2[rsp]
@@ -1202,6 +1478,240 @@ $LN1@qRegisterN:
 	ret	0
 ??$qRegisterNormalizedMetaType@PEAVQNetworkReply@@@@YAHAEBVQByteArray@@PEAPEAVQNetworkReply@@W4DefinedType@?$MetaTypeDefinedHelper@PEAVQNetworkReply@@$00@QtPrivate@@@Z ENDP ; qRegisterNormalizedMetaType<QNetworkReply *>
 _TEXT	ENDS
+; Function compile flags: /Odtp
+;	COMDAT ??$qRegisterNormalizedMetaType@PEAVQLabel@@@@YAHAEBVQByteArray@@PEAPEAVQLabel@@W4DefinedType@?$MetaTypeDefinedHelper@PEAVQLabel@@$00@QtPrivate@@@Z
+_TEXT	SEGMENT
+id$ = 48
+tv82 = 52
+typedefOf$ = 56
+flags$ = 60
+$T1 = 64
+tv143 = 72
+$T2 = 80
+$T3 = 88
+normalizedTypeName$ = 112
+dummy$ = 120
+defined$ = 128
+??$qRegisterNormalizedMetaType@PEAVQLabel@@@@YAHAEBVQByteArray@@PEAPEAVQLabel@@W4DefinedType@?$MetaTypeDefinedHelper@PEAVQLabel@@$00@QtPrivate@@@Z PROC ; qRegisterNormalizedMetaType<QLabel *>, COMDAT
+; File E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetatype.h
+; Line 1819
+$LN11:
+	mov	DWORD PTR [rsp+24], r8d
+	mov	QWORD PTR [rsp+16], rdx
+	mov	QWORD PTR [rsp+8], rcx
+	sub	rsp, 104				; 00000068H
+; Line 1821
+	mov	rcx, QWORD PTR normalizedTypeName$[rsp]
+	call	QWORD PTR __imp_?constData@QByteArray@@QEBAPEBDXZ
+	mov	rdx, rax
+	lea	rcx, QWORD PTR $T2[rsp]
+	call	QWORD PTR __imp_?normalizedType@QMetaObject@@SA?AVQByteArray@@PEBD@Z
+	mov	QWORD PTR tv143[rsp], rax
+	mov	rdx, QWORD PTR tv143[rsp]
+	mov	rcx, QWORD PTR normalizedTypeName$[rsp]
+	call	??8@YA_NAEBVQByteArray@@0@Z		; operator==
+	movzx	eax, al
+	test	eax, eax
+	je	SHORT $LN6@qRegisterN
+	jmp	SHORT $LN7@qRegisterN
+$LN6@qRegisterN:
+	mov	r9d, 1821				; 0000071dH
+	lea	r8, OFFSET FLAT:$SG166221
+	lea	rdx, OFFSET FLAT:$SG166222
+	lea	rcx, OFFSET FLAT:$SG166223
+	call	QWORD PTR __imp_?qt_assert_x@@YAXPEBD00H@Z
+$LN7@qRegisterN:
+	lea	rcx, QWORD PTR $T2[rsp]
+	call	QWORD PTR __imp_??1QByteArray@@QEAA@XZ
+; Line 1823
+	cmp	QWORD PTR dummy$[rsp], 0
+	je	SHORT $LN8@qRegisterN
+	mov	DWORD PTR tv82[rsp], -1
+	jmp	SHORT $LN9@qRegisterN
+$LN8@qRegisterN:
+	call	?qt_metatype_id@?$QMetaTypeIdHelper@PEAVQLabel@@$00@QtPrivate@@SAHXZ ; QtPrivate::QMetaTypeIdHelper<QLabel *,1>::qt_metatype_id
+	mov	DWORD PTR tv82[rsp], eax
+$LN9@qRegisterN:
+	mov	eax, DWORD PTR tv82[rsp]
+	mov	DWORD PTR typedefOf$[rsp], eax
+; Line 1824
+	cmp	DWORD PTR typedefOf$[rsp], -1
+	je	SHORT $LN2@qRegisterN
+; Line 1825
+	mov	edx, DWORD PTR typedefOf$[rsp]
+	mov	rcx, QWORD PTR normalizedTypeName$[rsp]
+	call	QWORD PTR __imp_?registerNormalizedTypedef@QMetaType@@SAHAEBVQByteArray@@H@Z
+	jmp	$LN1@qRegisterN
+$LN2@qRegisterN:
+; Line 1827
+	lea	rax, QWORD PTR $T1[rsp]
+	mov	QWORD PTR $T3[rsp], rax
+	mov	edx, 12
+	mov	rcx, QWORD PTR $T3[rsp]
+	call	??0QFlag@@QEAA@H@Z			; QFlag::QFlag
+	mov	edx, DWORD PTR [rax]
+	lea	rcx, QWORD PTR flags$[rsp]
+	call	??0?$QFlags@W4TypeFlag@QMetaType@@@@QEAA@VQFlag@@@Z ; QFlags<enum QMetaType::TypeFlag>::QFlags<enum QMetaType::TypeFlag>
+; Line 1829
+	cmp	DWORD PTR defined$[rsp], 0
+	je	SHORT $LN3@qRegisterN
+; Line 1830
+	mov	edx, 256				; 00000100H
+	lea	rcx, QWORD PTR flags$[rsp]
+	call	??_5?$QFlags@W4TypeFlag@QMetaType@@@@QEAAAEAV0@W4TypeFlag@QMetaType@@@Z ; QFlags<enum QMetaType::TypeFlag>::operator|=
+$LN3@qRegisterN:
+; Line 1832
+	call	?value@?$MetaObjectForType@PEAVQLabel@@X@QtPrivate@@SAPEBUQMetaObject@@XZ ; QtPrivate::MetaObjectForType<QLabel *,void>::value
+	mov	QWORD PTR [rsp+40], rax
+	mov	eax, DWORD PTR flags$[rsp]
+	mov	DWORD PTR [rsp+32], eax
+	mov	r9d, 8
+	lea	r8, OFFSET FLAT:?Construct@?$QMetaTypeFunctionHelper@PEAVQLabel@@$00@QtMetaTypePrivate@@SAPEAXPEAXPEBX@Z ; QtMetaTypePrivate::QMetaTypeFunctionHelper<QLabel *,1>::Construct
+	lea	rdx, OFFSET FLAT:?Destruct@?$QMetaTypeFunctionHelper@PEAVQLabel@@$00@QtMetaTypePrivate@@SAXPEAX@Z ; QtMetaTypePrivate::QMetaTypeFunctionHelper<QLabel *,1>::Destruct
+	mov	rcx, QWORD PTR normalizedTypeName$[rsp]
+	call	QWORD PTR __imp_?registerNormalizedType@QMetaType@@SAHAEBVQByteArray@@P6AXPEAX@ZP6APEAX1PEBX@ZHV?$QFlags@W4TypeFlag@QMetaType@@@@PEBUQMetaObject@@@Z
+	mov	DWORD PTR id$[rsp], eax
+; Line 1839
+	cmp	DWORD PTR id$[rsp], 0
+	jle	SHORT $LN4@qRegisterN
+; Line 1840
+	mov	ecx, DWORD PTR id$[rsp]
+	call	?registerConverter@?$SequentialContainerConverterHelper@PEAVQLabel@@$0A@@QtPrivate@@SA_NH@Z ; QtPrivate::SequentialContainerConverterHelper<QLabel *,0>::registerConverter
+; Line 1841
+	mov	ecx, DWORD PTR id$[rsp]
+	call	?registerConverter@?$AssociativeContainerConverterHelper@PEAVQLabel@@$0A@@QtPrivate@@SA_NH@Z ; QtPrivate::AssociativeContainerConverterHelper<QLabel *,0>::registerConverter
+; Line 1842
+	mov	ecx, DWORD PTR id$[rsp]
+	call	?registerConverter@?$IsPair@PEAVQLabel@@@QtPrivate@@SA_NH@Z ; QtPrivate::IsPair<QLabel *>::registerConverter
+; Line 1843
+	mov	ecx, DWORD PTR id$[rsp]
+	call	?registerConverter@?$MetaTypeSmartPointerHelper@PEAVQLabel@@X@QtPrivate@@SA_NH@Z ; QtPrivate::MetaTypeSmartPointerHelper<QLabel *,void>::registerConverter
+$LN4@qRegisterN:
+; Line 1846
+	mov	eax, DWORD PTR id$[rsp]
+$LN1@qRegisterN:
+; Line 1847
+	add	rsp, 104				; 00000068H
+	ret	0
+??$qRegisterNormalizedMetaType@PEAVQLabel@@@@YAHAEBVQByteArray@@PEAPEAVQLabel@@W4DefinedType@?$MetaTypeDefinedHelper@PEAVQLabel@@$00@QtPrivate@@@Z ENDP ; qRegisterNormalizedMetaType<QLabel *>
+_TEXT	ENDS
+; Function compile flags: /Odtp
+;	COMDAT ?qt_metatype_id@?$QMetaTypeId2@PEAVQLabel@@@@SAHXZ
+_TEXT	SEGMENT
+?qt_metatype_id@?$QMetaTypeId2@PEAVQLabel@@@@SAHXZ PROC	; QMetaTypeId2<QLabel *>::qt_metatype_id, COMDAT
+; File E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetatype.h
+; Line 1742
+$LN3:
+	sub	rsp, 40					; 00000028H
+	call	?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ ; QMetaTypeIdQObject<QLabel *,8>::qt_metatype_id
+	add	rsp, 40					; 00000028H
+	ret	0
+?qt_metatype_id@?$QMetaTypeId2@PEAVQLabel@@@@SAHXZ ENDP	; QMetaTypeId2<QLabel *>::qt_metatype_id
+_TEXT	ENDS
+; Function compile flags: /Odtp
+;	COMDAT ?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ
+_TEXT	SEGMENT
+id$1 = 32
+newId$ = 36
+$T2 = 40
+typeName$ = 48
+cName$ = 56
+?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ PROC ; QMetaTypeIdQObject<QLabel *,8>::qt_metatype_id, COMDAT
+; File E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetatype.h
+; Line 1913
+$LN5:
+	sub	rsp, 72					; 00000048H
+; Line 1915
+	lea	rcx, OFFSET FLAT:?metatype_id@?1??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4V?$QBasicAtomicInteger@H@@A ; `QMetaTypeIdQObject<QLabel *,8>::qt_metatype_id'::`2'::metatype_id
+	call	?loadAcquire@?$QBasicAtomicInteger@H@@QEBAHXZ ; QBasicAtomicInteger<int>::loadAcquire
+	mov	DWORD PTR id$1[rsp], eax
+	cmp	DWORD PTR id$1[rsp], 0
+	je	SHORT $LN2@qt_metatyp
+; Line 1916
+	mov	eax, DWORD PTR id$1[rsp]
+	jmp	$LN1@qt_metatyp
+$LN2@qt_metatyp:
+; Line 1917
+	mov	rcx, QWORD PTR __imp_?staticMetaObject@QLabel@@2UQMetaObject@@B
+	call	QWORD PTR __imp_?className@QMetaObject@@QEBAPEBDXZ
+	mov	QWORD PTR cName$[rsp], rax
+; Line 1918
+	lea	rcx, QWORD PTR typeName$[rsp]
+	call	QWORD PTR __imp_??0QByteArray@@QEAA@XZ
+	npad	1
+; Line 1919
+	mov	rcx, QWORD PTR cName$[rsp]
+	call	strlen
+	inc	eax
+	mov	edx, eax
+	lea	rcx, QWORD PTR typeName$[rsp]
+	call	QWORD PTR __imp_?reserve@QByteArray@@QEAAXH@Z
+; Line 1920
+	mov	rdx, QWORD PTR cName$[rsp]
+	lea	rcx, QWORD PTR typeName$[rsp]
+	call	QWORD PTR __imp_?append@QByteArray@@QEAAAEAV1@PEBD@Z
+	mov	dl, 42					; 0000002aH
+	mov	rcx, rax
+	call	QWORD PTR __imp_?append@QByteArray@@QEAAAEAV1@D@Z
+; Line 1921
+	mov	r8d, 1
+	mov	rdx, -1
+	lea	rcx, QWORD PTR typeName$[rsp]
+	call	??$qRegisterNormalizedMetaType@PEAVQLabel@@@@YAHAEBVQByteArray@@PEAPEAVQLabel@@W4DefinedType@?$MetaTypeDefinedHelper@PEAVQLabel@@$00@QtPrivate@@@Z ; qRegisterNormalizedMetaType<QLabel *>
+	mov	DWORD PTR newId$[rsp], eax
+; Line 1924
+	mov	edx, DWORD PTR newId$[rsp]
+	lea	rcx, OFFSET FLAT:?metatype_id@?1??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4V?$QBasicAtomicInteger@H@@A ; `QMetaTypeIdQObject<QLabel *,8>::qt_metatype_id'::`2'::metatype_id
+	call	?storeRelease@?$QBasicAtomicInteger@H@@QEAAXH@Z ; QBasicAtomicInteger<int>::storeRelease
+; Line 1925
+	mov	eax, DWORD PTR newId$[rsp]
+	mov	DWORD PTR $T2[rsp], eax
+	lea	rcx, QWORD PTR typeName$[rsp]
+	call	QWORD PTR __imp_??1QByteArray@@QEAA@XZ
+	mov	eax, DWORD PTR $T2[rsp]
+$LN1@qt_metatyp:
+; Line 1926
+	add	rsp, 72					; 00000048H
+	ret	0
+?qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ ENDP ; QMetaTypeIdQObject<QLabel *,8>::qt_metatype_id
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+id$1 = 32
+newId$ = 36
+$T2 = 40
+typeName$ = 48
+cName$ = 56
+?dtor$0@?0??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4HA PROC ; `QMetaTypeIdQObject<QLabel *,8>::qt_metatype_id'::`1'::dtor$0
+	push	rbp
+	sub	rsp, 32					; 00000020H
+	mov	rbp, rdx
+	lea	rcx, QWORD PTR typeName$[rbp]
+	call	QWORD PTR __imp_??1QByteArray@@QEAA@XZ
+	add	rsp, 32					; 00000020H
+	pop	rbp
+	ret	0
+?dtor$0@?0??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4HA ENDP ; `QMetaTypeIdQObject<QLabel *,8>::qt_metatype_id'::`1'::dtor$0
+text$x	ENDS
+; Function compile flags: /Odtp
+;	COMDAT text$x
+text$x	SEGMENT
+id$1 = 32
+newId$ = 36
+$T2 = 40
+typeName$ = 48
+cName$ = 56
+?dtor$0@?0??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4HA PROC ; `QMetaTypeIdQObject<QLabel *,8>::qt_metatype_id'::`1'::dtor$0
+	push	rbp
+	sub	rsp, 32					; 00000020H
+	mov	rbp, rdx
+	lea	rcx, QWORD PTR typeName$[rbp]
+	call	QWORD PTR __imp_??1QByteArray@@QEAA@XZ
+	add	rsp, 32					; 00000020H
+	pop	rbp
+	ret	0
+?dtor$0@?0??qt_metatype_id@?$QMetaTypeIdQObject@PEAVQLabel@@$07@@SAHXZ@4HA ENDP ; `QMetaTypeIdQObject<QLabel *,8>::qt_metatype_id'::`1'::dtor$0
+text$x	ENDS
 ; Function compile flags: /Odtp
 ;	COMDAT ?qt_metatype_id@?$QMetaTypeId2@PEAVQNetworkReply@@@@SAHXZ
 _TEXT	SEGMENT
@@ -1392,6 +1902,21 @@ _Source$ = 8
 ??$_Atomic_address_as@JU?$_Atomic_padded@H@std@@@std@@YAPECJAEAU?$_Atomic_padded@H@0@@Z ENDP ; std::_Atomic_address_as<long,std::_Atomic_padded<int> >
 _TEXT	ENDS
 ; Function compile flags: /Odtp
+;	COMDAT ??$qMetaTypeId@PEAVQLabel@@@@YAHXZ
+_TEXT	SEGMENT
+??$qMetaTypeId@PEAVQLabel@@@@YAHXZ PROC			; qMetaTypeId<QLabel *>, COMDAT
+; File E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetatype.h
+; Line 1881
+$LN3:
+	sub	rsp, 40					; 00000028H
+; Line 1883
+	call	?qt_metatype_id@?$QMetaTypeId2@PEAVQLabel@@@@SAHXZ ; QMetaTypeId2<QLabel *>::qt_metatype_id
+; Line 1884
+	add	rsp, 40					; 00000028H
+	ret	0
+??$qMetaTypeId@PEAVQLabel@@@@YAHXZ ENDP			; qMetaTypeId<QLabel *>
+_TEXT	ENDS
+; Function compile flags: /Odtp
 ;	COMDAT ??$qMetaTypeId@PEAVQNetworkReply@@@@YAHXZ
 _TEXT	SEGMENT
 ??$qMetaTypeId@PEAVQNetworkReply@@@@YAHXZ PROC		; qMetaTypeId<QNetworkReply *>, COMDAT
@@ -1452,23 +1977,23 @@ _TEXT	ENDS
 text$di	SEGMENT
 ??__E?staticMetaObject@CWeather@@2UQMetaObject@@B@@YAXXZ PROC ; `dynamic initializer for 'CWeather::staticMetaObject'', COMDAT
 ; File F:\code\vs_project\Weather\CWeather\x64\Debug\moc\moc_CWeather.cpp
-; Line 138
+; Line 143
 	sub	rsp, 40					; 00000028H
-; Line 132
+; Line 137
 	lea	rcx, OFFSET FLAT:?staticMetaObject@CWeather@@2UQMetaObject@@B ; CWeather::staticMetaObject
 	call	??$link@$1?staticMetaObject@QMainWindow@@2UQMetaObject@@B@SuperData@QMetaObject@@SA?AU01@XZ ; QMetaObject::SuperData::link<&QMainWindow::staticMetaObject>
-; Line 133
+; Line 138
 	lea	rax, OFFSET FLAT:?qt_meta_stringdata_CWeather@@3Uqt_meta_stringdata_CWeather_t@@B
 	mov	QWORD PTR ?staticMetaObject@CWeather@@2UQMetaObject@@B+8, rax
-; Line 134
+; Line 139
 	lea	rax, OFFSET FLAT:?qt_meta_data_CWeather@@3QBIB
 	mov	QWORD PTR ?staticMetaObject@CWeather@@2UQMetaObject@@B+16, rax
-; Line 135
+; Line 140
 	lea	rax, OFFSET FLAT:?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z ; CWeather::qt_static_metacall
 	mov	QWORD PTR ?staticMetaObject@CWeather@@2UQMetaObject@@B+24, rax
-; Line 136
+; Line 141
 	mov	QWORD PTR ?staticMetaObject@CWeather@@2UQMetaObject@@B+32, 0
-; Line 137
+; Line 142
 	mov	QWORD PTR ?staticMetaObject@CWeather@@2UQMetaObject@@B+40, 0
 	add	rsp, 40					; 00000028H
 	ret	0
@@ -1505,6 +2030,21 @@ $LN3:
 ??$link@$1?staticMetaObject@QMainWindow@@2UQMetaObject@@B@SuperData@QMetaObject@@SA?AU01@XZ ENDP ; QMetaObject::SuperData::link<&QMainWindow::staticMetaObject>
 _TEXT	ENDS
 ; Function compile flags: /Odtp
+;	COMDAT ??$qRegisterMetaType@PEAVQLabel@@@@YAHXZ
+_TEXT	SEGMENT
+??$qRegisterMetaType@PEAVQLabel@@@@YAHXZ PROC		; qRegisterMetaType<QLabel *>, COMDAT
+; File E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetatype.h
+; Line 1888
+$LN3:
+	sub	rsp, 40					; 00000028H
+; Line 1889
+	call	??$qMetaTypeId@PEAVQLabel@@@@YAHXZ	; qMetaTypeId<QLabel *>
+; Line 1890
+	add	rsp, 40					; 00000028H
+	ret	0
+??$qRegisterMetaType@PEAVQLabel@@@@YAHXZ ENDP		; qRegisterMetaType<QLabel *>
+_TEXT	ENDS
+; Function compile flags: /Odtp
 ;	COMDAT ??$qRegisterMetaType@PEAVQNetworkReply@@@@YAHXZ
 _TEXT	SEGMENT
 ??$qRegisterMetaType@PEAVQNetworkReply@@@@YAHXZ PROC	; qRegisterMetaType<QNetworkReply *>, COMDAT
@@ -1522,8 +2062,9 @@ _TEXT	ENDS
 ; Function compile flags: /Odtp
 _TEXT	SEGMENT
 tv69 = 32
-tv91 = 36
-tv130 = 40
+tv94 = 36
+tv133 = 40
+tv145 = 44
 _t$1 = 48
 _o$ = 80
 _c$ = 88
@@ -1531,31 +2072,31 @@ _id$ = 96
 _a$ = 104
 ?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z PROC ; CWeather::qt_static_metacall
 ; File F:\code\vs_project\Weather\CWeather\x64\Debug\moc\moc_CWeather.cpp
-; Line 101
-$LN27:
+; Line 100
+$LN31:
 	mov	QWORD PTR [rsp+32], r9
 	mov	DWORD PTR [rsp+24], r8d
 	mov	DWORD PTR [rsp+16], edx
 	mov	QWORD PTR [rsp+8], rcx
 	sub	rsp, 72					; 00000048H
-; Line 102
+; Line 101
 	cmp	DWORD PTR _c$[rsp], 0
-	jne	$LN8@qt_static_
-; Line 103
+	jne	$LN10@qt_static_
+; Line 102
 	mov	rax, QWORD PTR _o$[rsp]
 	mov	QWORD PTR _t$1[rsp], rax
-; Line 105
+; Line 104
 	mov	eax, DWORD PTR _id$[rsp]
 	mov	DWORD PTR tv69[rsp], eax
-	cmp	DWORD PTR tv69[rsp], 8
-	ja	$LN19@qt_static_
+	cmp	DWORD PTR tv69[rsp], 7
+	ja	$LN20@qt_static_
 	movsxd	rax, DWORD PTR tv69[rsp]
 	lea	rcx, OFFSET FLAT:__ImageBase
-	mov	eax, DWORD PTR $LN26@qt_static_[rcx+rax*4]
+	mov	eax, DWORD PTR $LN30@qt_static_[rcx+rax*4]
 	add	rax, rcx
 	jmp	rax
-$LN10@qt_static_:
-; Line 106
+$LN12@qt_static_:
+; Line 105
 	mov	eax, 8
 	imul	rax, rax, 1
 	mov	rcx, QWORD PTR _a$[rsp]
@@ -1564,18 +2105,18 @@ $LN10@qt_static_:
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?SlotRelied@CWeather@@AEAAXPEAVQNetworkReply@@@Z ; CWeather::SlotRelied
 	jmp	$LN2@qt_static_
-$LN11@qt_static_:
-; Line 107
+$LN13@qt_static_:
+; Line 106
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?InitView@CWeather@@AEAAXXZ		; CWeather::InitView
 	jmp	SHORT $LN2@qt_static_
-$LN12@qt_static_:
-; Line 108
+$LN14@qt_static_:
+; Line 107
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?InitConnect@CWeather@@AEAAXXZ		; CWeather::InitConnect
 	jmp	SHORT $LN2@qt_static_
-$LN13@qt_static_:
-; Line 109
+$LN15@qt_static_:
+; Line 108
 	mov	eax, 8
 	imul	rax, rax, 1
 	mov	rcx, QWORD PTR _a$[rsp]
@@ -1583,8 +2124,8 @@ $LN13@qt_static_:
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?SedWeatherRequest@CWeather@@AEAAXAEBVQString@@@Z ; CWeather::SedWeatherRequest
 	jmp	SHORT $LN2@qt_static_
-$LN14@qt_static_:
-; Line 110
+$LN16@qt_static_:
+; Line 109
 	mov	eax, 8
 	imul	rax, rax, 1
 	mov	rcx, QWORD PTR _a$[rsp]
@@ -1592,63 +2133,65 @@ $LN14@qt_static_:
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?parseJson@CWeather@@AEAAXAEAVQByteArray@@@Z ; CWeather::parseJson
 	jmp	SHORT $LN2@qt_static_
-$LN15@qt_static_:
-; Line 111
+$LN17@qt_static_:
+; Line 110
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?UpdataUI@CWeather@@AEAAXXZ		; CWeather::UpdataUI
 	jmp	SHORT $LN2@qt_static_
-$LN16@qt_static_:
-; Line 112
+$LN18@qt_static_:
+; Line 111
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?SlotSearch@CWeather@@AEAAXXZ		; CWeather::SlotSearch
 	jmp	SHORT $LN2@qt_static_
-$LN17@qt_static_:
-; Line 113
-	mov	rcx, QWORD PTR _t$1[rsp]
-	call	?PainterHightCurve@CWeather@@AEAAXXZ	; CWeather::PainterHightCurve
-	jmp	SHORT $LN2@qt_static_
-$LN18@qt_static_:
-; Line 114
-	mov	rcx, QWORD PTR _t$1[rsp]
-	call	?PainterLowCurve@CWeather@@AEAAXXZ	; CWeather::PainterLowCurve
 $LN19@qt_static_:
+; Line 112
+	mov	eax, 8
+	imul	rax, rax, 1
+	mov	rcx, QWORD PTR _a$[rsp]
+	mov	rax, QWORD PTR [rcx+rax]
+	mov	rdx, QWORD PTR [rax]
+	mov	rcx, QWORD PTR _t$1[rsp]
+	call	?PainterWeatcherCurve@CWeather@@AEAAXPEAVQLabel@@@Z ; CWeather::PainterWeatcherCurve
+$LN20@qt_static_:
 $LN2@qt_static_:
-; Line 117
-	jmp	$LN9@qt_static_
-$LN8@qt_static_:
+; Line 115
+	jmp	$LN11@qt_static_
+$LN10@qt_static_:
 	cmp	DWORD PTR _c$[rsp], 12
-	jne	SHORT $LN20@qt_static_
-; Line 118
+	jne	$LN21@qt_static_
+; Line 116
 	mov	eax, DWORD PTR _id$[rsp]
-	mov	DWORD PTR tv91[rsp], eax
-	cmp	DWORD PTR tv91[rsp], 0
-	je	SHORT $LN22@qt_static_
-; Line 119
+	mov	DWORD PTR tv94[rsp], eax
+	cmp	DWORD PTR tv94[rsp], 0
+	je	SHORT $LN23@qt_static_
+	cmp	DWORD PTR tv94[rsp], 7
+	je	SHORT $LN26@qt_static_
+; Line 117
 	mov	eax, 8
 	imul	rax, rax, 0
 	mov	rcx, QWORD PTR _a$[rsp]
 	mov	rax, QWORD PTR [rcx+rax]
 	mov	DWORD PTR [rax], -1
-	jmp	SHORT $LN4@qt_static_
-$LN22@qt_static_:
-; Line 121
+	jmp	$LN4@qt_static_
+$LN23@qt_static_:
+; Line 119
 	mov	eax, 8
 	imul	rax, rax, 1
 	mov	rcx, QWORD PTR _a$[rsp]
 	mov	rax, QWORD PTR [rcx+rax]
 	mov	eax, DWORD PTR [rax]
-	mov	DWORD PTR tv130[rsp], eax
-	cmp	DWORD PTR tv130[rsp], 0
-	je	SHORT $LN24@qt_static_
-; Line 122
+	mov	DWORD PTR tv133[rsp], eax
+	cmp	DWORD PTR tv133[rsp], 0
+	je	SHORT $LN25@qt_static_
+; Line 120
 	mov	eax, 8
 	imul	rax, rax, 0
 	mov	rcx, QWORD PTR _a$[rsp]
 	mov	rax, QWORD PTR [rcx+rax]
 	mov	DWORD PTR [rax], -1
 	jmp	SHORT $LN6@qt_static_
-$LN24@qt_static_:
-; Line 124
+$LN25@qt_static_:
+; Line 122
 	call	??$qRegisterMetaType@PEAVQNetworkReply@@@@YAHXZ ; qRegisterMetaType<QNetworkReply *>
 	mov	ecx, 8
 	imul	rcx, rcx, 0
@@ -1656,16 +2199,41 @@ $LN24@qt_static_:
 	mov	rcx, QWORD PTR [rdx+rcx]
 	mov	DWORD PTR [rcx], eax
 $LN6@qt_static_:
-$LN4@qt_static_:
-$LN20@qt_static_:
-$LN9@qt_static_:
+; Line 124
+	jmp	SHORT $LN4@qt_static_
+$LN26@qt_static_:
+; Line 126
+	mov	eax, 8
+	imul	rax, rax, 1
+	mov	rcx, QWORD PTR _a$[rsp]
+	mov	rax, QWORD PTR [rcx+rax]
+	mov	eax, DWORD PTR [rax]
+	mov	DWORD PTR tv145[rsp], eax
+	cmp	DWORD PTR tv145[rsp], 0
+	je	SHORT $LN28@qt_static_
+; Line 127
+	mov	eax, 8
+	imul	rax, rax, 0
+	mov	rcx, QWORD PTR _a$[rsp]
+	mov	rax, QWORD PTR [rcx+rax]
+	mov	DWORD PTR [rax], -1
+	jmp	SHORT $LN8@qt_static_
+$LN28@qt_static_:
 ; Line 129
+	call	??$qRegisterMetaType@PEAVQLabel@@@@YAHXZ ; qRegisterMetaType<QLabel *>
+	mov	ecx, 8
+	imul	rcx, rcx, 0
+	mov	rdx, QWORD PTR _a$[rsp]
+	mov	rcx, QWORD PTR [rdx+rcx]
+	mov	DWORD PTR [rcx], eax
+$LN8@qt_static_:
+$LN4@qt_static_:
+$LN21@qt_static_:
+$LN11@qt_static_:
+; Line 134
 	add	rsp, 72					; 00000048H
 	ret	0
-	npad	3
-$LN26@qt_static_:
-	DD	$LN10@qt_static_
-	DD	$LN11@qt_static_
+$LN30@qt_static_:
 	DD	$LN12@qt_static_
 	DD	$LN13@qt_static_
 	DD	$LN14@qt_static_
@@ -1673,6 +2241,7 @@ $LN26@qt_static_:
 	DD	$LN16@qt_static_
 	DD	$LN17@qt_static_
 	DD	$LN18@qt_static_
+	DD	$LN19@qt_static_
 ?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z ENDP ; CWeather::qt_static_metacall
 _TEXT	ENDS
 ; Function compile flags: /Odtp
@@ -1683,69 +2252,69 @@ _id$ = 64
 _a$ = 72
 ?qt_metacall@CWeather@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z PROC ; CWeather::qt_metacall
 ; File F:\code\vs_project\Weather\CWeather\x64\Debug\moc\moc_CWeather.cpp
-; Line 155
+; Line 160
 $LN9:
 	mov	QWORD PTR [rsp+32], r9
 	mov	DWORD PTR [rsp+24], r8d
 	mov	DWORD PTR [rsp+16], edx
 	mov	QWORD PTR [rsp+8], rcx
 	sub	rsp, 40					; 00000028H
-; Line 156
+; Line 161
 	mov	r9, QWORD PTR _a$[rsp]
 	mov	r8d, DWORD PTR _id$[rsp]
 	mov	edx, DWORD PTR _c$[rsp]
 	mov	rcx, QWORD PTR this$[rsp]
 	call	QWORD PTR __imp_?qt_metacall@QMainWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 	mov	DWORD PTR _id$[rsp], eax
-; Line 157
+; Line 162
 	cmp	DWORD PTR _id$[rsp], 0
 	jge	SHORT $LN2@qt_metacal
-; Line 158
+; Line 163
 	mov	eax, DWORD PTR _id$[rsp]
 	jmp	SHORT $LN1@qt_metacal
 $LN2@qt_metacal:
-; Line 159
+; Line 164
 	cmp	DWORD PTR _c$[rsp], 0
 	jne	SHORT $LN3@qt_metacal
-; Line 160
-	cmp	DWORD PTR _id$[rsp], 9
+; Line 165
+	cmp	DWORD PTR _id$[rsp], 8
 	jge	SHORT $LN5@qt_metacal
-; Line 161
+; Line 166
 	mov	r9, QWORD PTR _a$[rsp]
 	mov	r8d, DWORD PTR _id$[rsp]
 	mov	edx, DWORD PTR _c$[rsp]
 	mov	rcx, QWORD PTR this$[rsp]
 	call	?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z ; CWeather::qt_static_metacall
 $LN5@qt_metacal:
-; Line 162
+; Line 167
 	mov	eax, DWORD PTR _id$[rsp]
-	sub	eax, 9
+	sub	eax, 8
 	mov	DWORD PTR _id$[rsp], eax
 	jmp	SHORT $LN4@qt_metacal
 $LN3@qt_metacal:
-; Line 163
+; Line 168
 	cmp	DWORD PTR _c$[rsp], 12
 	jne	SHORT $LN6@qt_metacal
-; Line 164
-	cmp	DWORD PTR _id$[rsp], 9
+; Line 169
+	cmp	DWORD PTR _id$[rsp], 8
 	jge	SHORT $LN7@qt_metacal
-; Line 165
+; Line 170
 	mov	r9, QWORD PTR _a$[rsp]
 	mov	r8d, DWORD PTR _id$[rsp]
 	mov	edx, DWORD PTR _c$[rsp]
 	mov	rcx, QWORD PTR this$[rsp]
 	call	?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z ; CWeather::qt_static_metacall
 $LN7@qt_metacal:
-; Line 166
+; Line 171
 	mov	eax, DWORD PTR _id$[rsp]
-	sub	eax, 9
+	sub	eax, 8
 	mov	DWORD PTR _id$[rsp], eax
 $LN6@qt_metacal:
 $LN4@qt_metacal:
-; Line 168
+; Line 173
 	mov	eax, DWORD PTR _id$[rsp]
 $LN1@qt_metacal:
-; Line 169
+; Line 174
 	add	rsp, 40					; 00000028H
 	ret	0
 ?qt_metacall@CWeather@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z ENDP ; CWeather::qt_metacall
@@ -1756,33 +2325,33 @@ this$ = 48
 _clname$ = 56
 ?qt_metacast@CWeather@@UEAAPEAXPEBD@Z PROC		; CWeather::qt_metacast
 ; File F:\code\vs_project\Weather\CWeather\x64\Debug\moc\moc_CWeather.cpp
-; Line 147
+; Line 152
 $LN5:
 	mov	QWORD PTR [rsp+16], rdx
 	mov	QWORD PTR [rsp+8], rcx
 	sub	rsp, 40					; 00000028H
-; Line 148
+; Line 153
 	cmp	QWORD PTR _clname$[rsp], 0
 	jne	SHORT $LN2@qt_metacas
 	xor	eax, eax
 	jmp	SHORT $LN1@qt_metacas
 $LN2@qt_metacas:
-; Line 149
-	lea	rdx, OFFSET FLAT:?qt_meta_stringdata_CWeather@@3Uqt_meta_stringdata_CWeather_t@@B+384
+; Line 154
+	lea	rdx, OFFSET FLAT:?qt_meta_stringdata_CWeather@@3Uqt_meta_stringdata_CWeather_t@@B+408
 	mov	rcx, QWORD PTR _clname$[rsp]
 	call	strcmp
 	test	eax, eax
 	jne	SHORT $LN3@qt_metacas
-; Line 150
+; Line 155
 	mov	rax, QWORD PTR this$[rsp]
 	jmp	SHORT $LN1@qt_metacas
 $LN3@qt_metacas:
-; Line 151
+; Line 156
 	mov	rdx, QWORD PTR _clname$[rsp]
 	mov	rcx, QWORD PTR this$[rsp]
 	call	QWORD PTR __imp_?qt_metacast@QMainWindow@@UEAAPEAXPEBD@Z
 $LN1@qt_metacas:
-; Line 152
+; Line 157
 	add	rsp, 40					; 00000028H
 	ret	0
 ?qt_metacast@CWeather@@UEAAPEAXPEBD@Z ENDP		; CWeather::qt_metacast
@@ -1793,11 +2362,11 @@ tv82 = 32
 this$ = 64
 ?metaObject@CWeather@@UEBAPEBUQMetaObject@@XZ PROC	; CWeather::metaObject
 ; File F:\code\vs_project\Weather\CWeather\x64\Debug\moc\moc_CWeather.cpp
-; Line 142
+; Line 147
 $LN5:
 	mov	QWORD PTR [rsp+8], rcx
 	sub	rsp, 56					; 00000038H
-; Line 143
+; Line 148
 	mov	rax, QWORD PTR this$[rsp]
 	add	rax, 8
 	mov	rcx, rax
@@ -1817,7 +2386,7 @@ $LN3@metaObject:
 	mov	QWORD PTR tv82[rsp], rax
 $LN4@metaObject:
 	mov	rax, QWORD PTR tv82[rsp]
-; Line 144
+; Line 149
 	add	rsp, 56					; 00000038H
 	ret	0
 ?metaObject@CWeather@@UEBAPEBUQMetaObject@@XZ ENDP	; CWeather::metaObject
@@ -2251,7 +2820,7 @@ __formal$ = 8
 __formal$ = 16
 ?__empty_global_delete@@YAXPEAX_K@Z PROC		; __empty_global_delete, COMDAT
 ; File F:\code\vs_project\Weather\CWeather\x64\Debug\moc\moc_CWeather.cpp
-; Line 172
+; Line 177
 	mov	QWORD PTR [rsp+16], rdx
 	mov	QWORD PTR [rsp+8], rcx
 	ret	0
@@ -2263,7 +2832,7 @@ _TEXT	SEGMENT
 __formal$ = 8
 ?__empty_global_delete@@YAXPEAX@Z PROC			; __empty_global_delete, COMDAT
 ; File F:\code\vs_project\Weather\CWeather\x64\Debug\moc\moc_CWeather.cpp
-; Line 172
+; Line 177
 	mov	QWORD PTR [rsp+8], rcx
 	ret	0
 ?__empty_global_delete@@YAXPEAX@Z ENDP			; __empty_global_delete
