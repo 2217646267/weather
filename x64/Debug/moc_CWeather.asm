@@ -6,14 +6,14 @@ INCLUDELIB MSVCRTD
 INCLUDELIB OLDNAMES
 
 CONST	SEGMENT
-$SG164089 DB	'invalid argument', 00H
+$SG164126 DB	'invalid argument', 00H
 	ORG $+3
-$SG164090 DB	'%s', 00H
+$SG164127 DB	'%s', 00H
 	ORG $+9
-$SG164091 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
+$SG164128 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
 	DB	'unity\VC\Tools\MSVC\14.28.29910\include\xmemory', 00H
 	ORG $+8
-$SG164092 DB	'C', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
+$SG164129 DB	'C', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
 	DB	'g', 00H, 'r', 00H, 'a', 00H, 'm', 00H, ' ', 00H, 'F', 00H, 'i'
 	DB	00H, 'l', 00H, 'e', 00H, 's', 00H, ' ', 00H, '(', 00H, 'x', 00H
 	DB	'8', 00H, '6', 00H, ')', 00H, '\', 00H, 'M', 00H, 'i', 00H, 'c'
@@ -30,7 +30,7 @@ $SG164092 DB	'C', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
 	DB	00H, 'l', 00H, 'u', 00H, 'd', 00H, 'e', 00H, '\', 00H, 'x', 00H
 	DB	'm', 00H, 'e', 00H, 'm', 00H, 'o', 00H, 'r', 00H, 'y', 00H, 00H
 	DB	00H
-$SG164093 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
+$SG164130 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
 	DB	'A', 00H, 'l', 00H, 'l', 00H, 'o', 00H, 'c', 00H, 'a', 00H, 't'
 	DB	00H, 'e', 00H, '_', 00H, 'm', 00H, 'a', 00H, 'n', 00H, 'u', 00H
 	DB	'a', 00H, 'l', 00H, 'l', 00H, 'y', 00H, '_', 00H, 'v', 00H, 'e'
@@ -38,101 +38,156 @@ $SG164093 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
 	DB	'l', 00H, 'i', 00H, 'g', 00H, 'n', 00H, 'e', 00H, 'd', 00H, 00H
 	DB	00H
 	ORG $+2
-$SG164094 DB	'"', 00H, 'i', 00H, 'n', 00H, 'v', 00H, 'a', 00H, 'l', 00H
+$SG164131 DB	'"', 00H, 'i', 00H, 'n', 00H, 'v', 00H, 'a', 00H, 'l', 00H
 	DB	'i', 00H, 'd', 00H, ' ', 00H, 'a', 00H, 'r', 00H, 'g', 00H, 'u'
 	DB	00H, 'm', 00H, 'e', 00H, 'n', 00H, 't', 00H, '"', 00H, 00H, 00H
 	ORG $+10
-$SG164150 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
+$SG164187 DB	'C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
 	DB	'unity\VC\Tools\MSVC\14.28.29910\include\xlocale', 00H
-$SG166013 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG166050 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+10
-$SG166014 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG166051 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG166015 DB	'qRegisterNormalizedMetaType', 00H
+$SG166052 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG157853 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG157890 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG157854 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG157891 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG157855 DB	'qRegisterNormalizedMetaType', 00H
+$SG157892 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG158205 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG158242 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG158206 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG158243 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG158207 DB	'qRegisterNormalizedMetaType', 00H
+$SG158244 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG158557 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG158594 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG158558 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG158595 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG158559 DB	'qRegisterNormalizedMetaType', 00H
+$SG158596 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG167381 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG167418 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG167382 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG167419 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG167383 DB	'qRegisterNormalizedMetaType', 00H
+$SG167420 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG159558 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG159595 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG159559 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG159596 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG159560 DB	'qRegisterNormalizedMetaType', 00H
+$SG159597 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG159910 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG159947 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG159911 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG159948 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG159912 DB	'qRegisterNormalizedMetaType', 00H
+$SG159949 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG160321 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG160358 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG160322 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG160359 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG160323 DB	'qRegisterNormalizedMetaType', 00H
+$SG160360 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
 ?qt_meta_stringdata_CWeather@@3Uqt_meta_stringdata_CWeather_t@@B DD 0ffffffffH ; qt_meta_stringdata_CWeather
 	DD	08H
 	DD	00H
 	ORG $+4
-	DQ	0000000000000078H
+	DQ	0000000000000180H
 	DD	0ffffffffH
 	DD	0aH
 	DD	00H
 	ORG $+4
-	DQ	0000000000000069H
+	DQ	0000000000000171H
 	DD	0ffffffffH
 	DD	00H
 	DD	00H
 	ORG $+4
-	DQ	000000000000005cH
+	DQ	0000000000000164H
 	DD	0ffffffffH
 	DD	0eH
 	DD	00H
 	ORG $+4
-	DQ	0000000000000045H
+	DQ	000000000000014dH
 	DD	0ffffffffH
 	DD	0aH
 	DD	00H
 	ORG $+4
-	DQ	000000000000003cH
+	DQ	0000000000000144H
+	DD	0ffffffffH
+	DD	08H
+	DD	00H
+	ORG $+4
+	DQ	0000000000000137H
+	DD	0ffffffffH
+	DD	0bH
+	DD	00H
+	ORG $+4
+	DQ	0000000000000128H
+	DD	0ffffffffH
+	DD	011H
+	DD	00H
+	ORG $+4
+	DQ	000000000000011cH
+	DD	0ffffffffH
+	DD	0bH
+	DD	00H
+	ORG $+4
+	DQ	0000000000000116H
+	DD	0ffffffffH
+	DD	09H
+	DD	00H
+	ORG $+4
+	DQ	000000000000010aH
+	DD	0ffffffffH
+	DD	0bH
+	DD	00H
+	ORG $+4
+	DQ	00000000000000fcH
+	DD	0ffffffffH
+	DD	09H
+	DD	00H
+	ORG $+4
+	DQ	00000000000000f0H
+	DD	0ffffffffH
+	DD	08H
+	DD	00H
+	ORG $+4
+	DQ	00000000000000e2H
+	DD	0ffffffffH
+	DD	0aH
+	DD	00H
+	ORG $+4
+	DQ	00000000000000d3H
+	DD	0ffffffffH
+	DD	011H
+	DD	00H
+	ORG $+4
+	DQ	00000000000000c6H
+	DD	0ffffffffH
+	DD	0fH
+	DD	00H
+	ORG $+4
+	DQ	00000000000000c0H
 	DB	043H
 	DB	057H
 	DB	065H
@@ -180,13 +235,149 @@ $SG160323 DB	'qRegisterNormalizedMetaType', 00H
 	DB	06cH
 	DB	079H
 	DB	00H
-	ORG $+1
+	DB	049H
+	DB	06eH
+	DB	069H
+	DB	074H
+	DB	056H
+	DB	069H
+	DB	065H
+	DB	077H
+	DB	00H
+	DB	049H
+	DB	06eH
+	DB	069H
+	DB	074H
+	DB	043H
+	DB	06fH
+	DB	06eH
+	DB	06eH
+	DB	065H
+	DB	063H
+	DB	074H
+	DB	00H
+	DB	053H
+	DB	065H
+	DB	064H
+	DB	057H
+	DB	065H
+	DB	061H
+	DB	074H
+	DB	068H
+	DB	065H
+	DB	072H
+	DB	052H
+	DB	065H
+	DB	071H
+	DB	075H
+	DB	065H
+	DB	073H
+	DB	074H
+	DB	00H
+	DB	073H
+	DB	074H
+	DB	072H
+	DB	043H
+	DB	069H
+	DB	074H
+	DB	079H
+	DB	04eH
+	DB	061H
+	DB	06dH
+	DB	065H
+	DB	00H
+	DB	070H
+	DB	061H
+	DB	072H
+	DB	073H
+	DB	065H
+	DB	04aH
+	DB	073H
+	DB	06fH
+	DB	06eH
+	DB	00H
+	DB	051H
+	DB	042H
+	DB	079H
+	DB	074H
+	DB	065H
+	DB	041H
+	DB	072H
+	DB	072H
+	DB	061H
+	DB	079H
+	DB	026H
+	DB	00H
+	DB	062H
+	DB	079H
+	DB	074H
+	DB	065H
+	DB	041H
+	DB	072H
+	DB	072H
+	DB	061H
+	DB	079H
+	DB	00H
+	DB	055H
+	DB	070H
+	DB	064H
+	DB	061H
+	DB	074H
+	DB	061H
+	DB	055H
+	DB	049H
+	DB	00H
+	DB	053H
+	DB	06cH
+	DB	06fH
+	DB	074H
+	DB	053H
+	DB	065H
+	DB	061H
+	DB	072H
+	DB	063H
+	DB	068H
+	DB	00H
+	DB	050H
+	DB	061H
+	DB	069H
+	DB	06eH
+	DB	074H
+	DB	065H
+	DB	072H
+	DB	048H
+	DB	069H
+	DB	067H
+	DB	068H
+	DB	074H
+	DB	043H
+	DB	075H
+	DB	072H
+	DB	076H
+	DB	065H
+	DB	00H
+	DB	050H
+	DB	061H
+	DB	069H
+	DB	06eH
+	DB	074H
+	DB	065H
+	DB	072H
+	DB	04cH
+	DB	06fH
+	DB	077H
+	DB	043H
+	DB	075H
+	DB	072H
+	DB	076H
+	DB	065H
+	DB	00H
 	ORG $+8
 ?qt_meta_data_CWeather@@3QBIB DD 08H			; qt_meta_data_CWeather
 	DD	00H
 	DD	00H
 	DD	00H
-	DD	01H
+	DD	09H
 	DD	0eH
 	DD	00H
 	DD	00H
@@ -198,85 +389,137 @@ $SG160323 DB	'qRegisterNormalizedMetaType', 00H
 	DD	00H
 	DD	01H
 	DD	01H
-	DD	013H
+	DD	03bH
+	DD	02H
+	DD	08H
+	DD	05H
+	DD	00H
+	DD	03eH
+	DD	02H
+	DD	08H
+	DD	06H
+	DD	00H
+	DD	03fH
+	DD	02H
+	DD	08H
+	DD	07H
+	DD	01H
+	DD	040H
+	DD	02H
+	DD	08H
+	DD	09H
+	DD	01H
+	DD	043H
+	DD	02H
+	DD	08H
+	DD	0cH
+	DD	00H
+	DD	046H
+	DD	02H
+	DD	08H
+	DD	0dH
+	DD	00H
+	DD	047H
+	DD	02H
+	DD	08H
+	DD	0eH
+	DD	00H
+	DD	048H
+	DD	02H
+	DD	08H
+	DD	0fH
+	DD	00H
+	DD	049H
 	DD	02H
 	DD	08H
 	DD	02bH
 	DD	080000003H
 	DD	04H
+	DD	02bH
+	DD	02bH
+	DD	02bH
+	DD	0aH
+	DD	08H
+	DD	02bH
+	DD	08000000aH
+	DD	0bH
+	DD	02bH
+	DD	02bH
+	DD	02bH
+	DD	02bH
 	DD	00H
 	ORG $+4
-$SG160735 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG160772 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG160736 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG160773 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG160737 DB	'qRegisterNormalizedMetaType', 00H
+$SG160774 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG161145 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG161182 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG161146 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG161183 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG161147 DB	'qRegisterNormalizedMetaType', 00H
+$SG161184 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG161497 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG161534 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG161498 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG161535 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG161499 DB	'qRegisterNormalizedMetaType', 00H
+$SG161536 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG162004 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG162041 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG162005 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG162042 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG162006 DB	'qRegisterNormalizedMetaType', 00H
+$SG162043 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG162356 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG162393 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG162357 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG162394 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG162358 DB	'qRegisterNormalizedMetaType', 00H
+$SG162395 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG162708 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG162745 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG162709 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG162746 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG162710 DB	'qRegisterNormalizedMetaType', 00H
+$SG162747 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG163091 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG163128 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG163092 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG163129 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG163093 DB	'qRegisterNormalizedMetaType', 00H
+$SG163130 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG154986 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG155023 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG154987 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG155024 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG154988 DB	'qRegisterNormalizedMetaType', 00H
+$SG155025 DB	'qRegisterNormalizedMetaType', 00H
 	ORG $+4
-$SG163501 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
+$SG163538 DB	'E:\vs_qt\5.14.2\5.14.2\msvc2017_64\include\QtCore\qmetat'
 	DB	'ype.h', 00H
 	ORG $+2
-$SG163502 DB	'qRegisterNormalizedMetaType was called with a not normal'
+$SG163539 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG163503 DB	'qRegisterNormalizedMetaType', 00H
+$SG163540 DB	'qRegisterNormalizedMetaType', 00H
 CONST	ENDS
 PUBLIC	?__empty_global_delete@@YAXPEAX@Z		; __empty_global_delete
 PUBLIC	?__empty_global_delete@@YAXPEAX_K@Z		; __empty_global_delete
@@ -350,6 +593,14 @@ EXTRN	__imp_?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ:PROC
 EXTRN	__imp_?qt_metacast@QMainWindow@@UEAAPEAXPEBD@Z:PROC
 EXTRN	__imp_?qt_metacall@QMainWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z:PROC
 EXTRN	?SlotRelied@CWeather@@AEAAXPEAVQNetworkReply@@@Z:PROC ; CWeather::SlotRelied
+EXTRN	?InitView@CWeather@@AEAAXXZ:PROC		; CWeather::InitView
+EXTRN	?InitConnect@CWeather@@AEAAXXZ:PROC		; CWeather::InitConnect
+EXTRN	?SedWeatherRequest@CWeather@@AEAAXAEBVQString@@@Z:PROC ; CWeather::SedWeatherRequest
+EXTRN	?parseJson@CWeather@@AEAAXAEAVQByteArray@@@Z:PROC ; CWeather::parseJson
+EXTRN	?UpdataUI@CWeather@@AEAAXXZ:PROC		; CWeather::UpdataUI
+EXTRN	?SlotSearch@CWeather@@AEAAXXZ:PROC		; CWeather::SlotSearch
+EXTRN	?PainterHightCurve@CWeather@@AEAAXXZ:PROC	; CWeather::PainterHightCurve
+EXTRN	?PainterLowCurve@CWeather@@AEAAXXZ:PROC		; CWeather::PainterLowCurve
 EXTRN	__CxxFrameHandler4:PROC
 EXTRN	__imp_?staticMetaObject@QMainWindow@@2UQMetaObject@@B:BYTE
 EXTRN	__imp_?staticMetaObject@QNetworkReply@@2UQMetaObject@@B:BYTE
@@ -417,10 +668,10 @@ $pdata$?qt_metacast@CWeather@@UEAAPEAXPEBD@Z DD imagerel $LN5
 	DD	imagerel $LN5+75
 	DD	imagerel $unwind$?qt_metacast@CWeather@@UEAAPEAXPEBD@Z
 $pdata$?qt_metacall@CWeather@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z DD imagerel $LN9
-	DD	imagerel $LN9+172
+	DD	imagerel $LN9+174
 	DD	imagerel $unwind$?qt_metacall@CWeather@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-$pdata$?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z DD imagerel $LN18
-	DD	imagerel $LN18+228
+$pdata$?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z DD imagerel $LN27
+	DD	imagerel $LN27+432
 	DD	imagerel $unwind$?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 pdata	ENDS
 ;	COMDAT pdata
@@ -872,9 +1123,9 @@ $LN11:
 	jmp	SHORT $LN7@qRegisterN
 $LN6@qRegisterN:
 	mov	r9d, 1821				; 0000071dH
-	lea	r8, OFFSET FLAT:$SG166013
-	lea	rdx, OFFSET FLAT:$SG166014
-	lea	rcx, OFFSET FLAT:$SG166015
+	lea	r8, OFFSET FLAT:$SG166050
+	lea	rdx, OFFSET FLAT:$SG166051
+	lea	rcx, OFFSET FLAT:$SG166052
 	call	QWORD PTR __imp_?qt_assert_x@@YAXPEBD00H@Z
 $LN7@qRegisterN:
 	lea	rcx, QWORD PTR $T2[rsp]
@@ -1201,23 +1452,23 @@ _TEXT	ENDS
 text$di	SEGMENT
 ??__E?staticMetaObject@CWeather@@2UQMetaObject@@B@@YAXXZ PROC ; `dynamic initializer for 'CWeather::staticMetaObject'', COMDAT
 ; File F:\code\vs_project\Weather\CWeather\x64\Debug\moc\moc_CWeather.cpp
-; Line 99
+; Line 138
 	sub	rsp, 40					; 00000028H
-; Line 93
+; Line 132
 	lea	rcx, OFFSET FLAT:?staticMetaObject@CWeather@@2UQMetaObject@@B ; CWeather::staticMetaObject
 	call	??$link@$1?staticMetaObject@QMainWindow@@2UQMetaObject@@B@SuperData@QMetaObject@@SA?AU01@XZ ; QMetaObject::SuperData::link<&QMainWindow::staticMetaObject>
-; Line 94
+; Line 133
 	lea	rax, OFFSET FLAT:?qt_meta_stringdata_CWeather@@3Uqt_meta_stringdata_CWeather_t@@B
 	mov	QWORD PTR ?staticMetaObject@CWeather@@2UQMetaObject@@B+8, rax
-; Line 95
+; Line 134
 	lea	rax, OFFSET FLAT:?qt_meta_data_CWeather@@3QBIB
 	mov	QWORD PTR ?staticMetaObject@CWeather@@2UQMetaObject@@B+16, rax
-; Line 96
+; Line 135
 	lea	rax, OFFSET FLAT:?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z ; CWeather::qt_static_metacall
 	mov	QWORD PTR ?staticMetaObject@CWeather@@2UQMetaObject@@B+24, rax
-; Line 97
+; Line 136
 	mov	QWORD PTR ?staticMetaObject@CWeather@@2UQMetaObject@@B+32, 0
-; Line 98
+; Line 137
 	mov	QWORD PTR ?staticMetaObject@CWeather@@2UQMetaObject@@B+40, 0
 	add	rsp, 40					; 00000028H
 	ret	0
@@ -1271,8 +1522,8 @@ _TEXT	ENDS
 ; Function compile flags: /Odtp
 _TEXT	SEGMENT
 tv69 = 32
-tv77 = 36
-tv84 = 40
+tv91 = 36
+tv130 = 40
 _t$1 = 48
 _o$ = 80
 _c$ = 88
@@ -1280,27 +1531,31 @@ _id$ = 96
 _a$ = 104
 ?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z PROC ; CWeather::qt_static_metacall
 ; File F:\code\vs_project\Weather\CWeather\x64\Debug\moc\moc_CWeather.cpp
-; Line 70
-$LN18:
+; Line 101
+$LN27:
 	mov	QWORD PTR [rsp+32], r9
 	mov	DWORD PTR [rsp+24], r8d
 	mov	DWORD PTR [rsp+16], edx
 	mov	QWORD PTR [rsp+8], rcx
 	sub	rsp, 72					; 00000048H
-; Line 71
+; Line 102
 	cmp	DWORD PTR _c$[rsp], 0
-	jne	SHORT $LN8@qt_static_
-; Line 72
+	jne	$LN8@qt_static_
+; Line 103
 	mov	rax, QWORD PTR _o$[rsp]
 	mov	QWORD PTR _t$1[rsp], rax
-; Line 74
+; Line 105
 	mov	eax, DWORD PTR _id$[rsp]
 	mov	DWORD PTR tv69[rsp], eax
-	cmp	DWORD PTR tv69[rsp], 0
-	je	SHORT $LN10@qt_static_
-	jmp	SHORT $LN11@qt_static_
+	cmp	DWORD PTR tv69[rsp], 8
+	ja	$LN19@qt_static_
+	movsxd	rax, DWORD PTR tv69[rsp]
+	lea	rcx, OFFSET FLAT:__ImageBase
+	mov	eax, DWORD PTR $LN26@qt_static_[rcx+rax*4]
+	add	rax, rcx
+	jmp	rax
 $LN10@qt_static_:
-; Line 75
+; Line 106
 	mov	eax, 8
 	imul	rax, rax, 1
 	mov	rcx, QWORD PTR _a$[rsp]
@@ -1308,43 +1563,92 @@ $LN10@qt_static_:
 	mov	rdx, QWORD PTR [rax]
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?SlotRelied@CWeather@@AEAAXPEAVQNetworkReply@@@Z ; CWeather::SlotRelied
+	jmp	$LN2@qt_static_
 $LN11@qt_static_:
-; Line 78
+; Line 107
+	mov	rcx, QWORD PTR _t$1[rsp]
+	call	?InitView@CWeather@@AEAAXXZ		; CWeather::InitView
+	jmp	SHORT $LN2@qt_static_
+$LN12@qt_static_:
+; Line 108
+	mov	rcx, QWORD PTR _t$1[rsp]
+	call	?InitConnect@CWeather@@AEAAXXZ		; CWeather::InitConnect
+	jmp	SHORT $LN2@qt_static_
+$LN13@qt_static_:
+; Line 109
+	mov	eax, 8
+	imul	rax, rax, 1
+	mov	rcx, QWORD PTR _a$[rsp]
+	mov	rdx, QWORD PTR [rcx+rax]
+	mov	rcx, QWORD PTR _t$1[rsp]
+	call	?SedWeatherRequest@CWeather@@AEAAXAEBVQString@@@Z ; CWeather::SedWeatherRequest
+	jmp	SHORT $LN2@qt_static_
+$LN14@qt_static_:
+; Line 110
+	mov	eax, 8
+	imul	rax, rax, 1
+	mov	rcx, QWORD PTR _a$[rsp]
+	mov	rdx, QWORD PTR [rcx+rax]
+	mov	rcx, QWORD PTR _t$1[rsp]
+	call	?parseJson@CWeather@@AEAAXAEAVQByteArray@@@Z ; CWeather::parseJson
+	jmp	SHORT $LN2@qt_static_
+$LN15@qt_static_:
+; Line 111
+	mov	rcx, QWORD PTR _t$1[rsp]
+	call	?UpdataUI@CWeather@@AEAAXXZ		; CWeather::UpdataUI
+	jmp	SHORT $LN2@qt_static_
+$LN16@qt_static_:
+; Line 112
+	mov	rcx, QWORD PTR _t$1[rsp]
+	call	?SlotSearch@CWeather@@AEAAXXZ		; CWeather::SlotSearch
+	jmp	SHORT $LN2@qt_static_
+$LN17@qt_static_:
+; Line 113
+	mov	rcx, QWORD PTR _t$1[rsp]
+	call	?PainterHightCurve@CWeather@@AEAAXXZ	; CWeather::PainterHightCurve
+	jmp	SHORT $LN2@qt_static_
+$LN18@qt_static_:
+; Line 114
+	mov	rcx, QWORD PTR _t$1[rsp]
+	call	?PainterLowCurve@CWeather@@AEAAXXZ	; CWeather::PainterLowCurve
+$LN19@qt_static_:
+$LN2@qt_static_:
+; Line 117
 	jmp	$LN9@qt_static_
 $LN8@qt_static_:
 	cmp	DWORD PTR _c$[rsp], 12
-	jne	SHORT $LN12@qt_static_
-; Line 79
+	jne	SHORT $LN20@qt_static_
+; Line 118
 	mov	eax, DWORD PTR _id$[rsp]
-	mov	DWORD PTR tv77[rsp], eax
-	cmp	DWORD PTR tv77[rsp], 0
-	je	SHORT $LN14@qt_static_
-; Line 80
+	mov	DWORD PTR tv91[rsp], eax
+	cmp	DWORD PTR tv91[rsp], 0
+	je	SHORT $LN22@qt_static_
+; Line 119
 	mov	eax, 8
 	imul	rax, rax, 0
 	mov	rcx, QWORD PTR _a$[rsp]
 	mov	rax, QWORD PTR [rcx+rax]
 	mov	DWORD PTR [rax], -1
 	jmp	SHORT $LN4@qt_static_
-$LN14@qt_static_:
-; Line 82
+$LN22@qt_static_:
+; Line 121
 	mov	eax, 8
 	imul	rax, rax, 1
 	mov	rcx, QWORD PTR _a$[rsp]
 	mov	rax, QWORD PTR [rcx+rax]
 	mov	eax, DWORD PTR [rax]
-	mov	DWORD PTR tv84[rsp], eax
-	cmp	DWORD PTR tv84[rsp], 0
-	je	SHORT $LN16@qt_static_
-; Line 83
+	mov	DWORD PTR tv130[rsp], eax
+	cmp	DWORD PTR tv130[rsp], 0
+	je	SHORT $LN24@qt_static_
+; Line 122
 	mov	eax, 8
 	imul	rax, rax, 0
 	mov	rcx, QWORD PTR _a$[rsp]
 	mov	rax, QWORD PTR [rcx+rax]
 	mov	DWORD PTR [rax], -1
 	jmp	SHORT $LN6@qt_static_
-$LN16@qt_static_:
-; Line 85
+$LN24@qt_static_:
+; Line 124
 	call	??$qRegisterMetaType@PEAVQNetworkReply@@@@YAHXZ ; qRegisterMetaType<QNetworkReply *>
 	mov	ecx, 8
 	imul	rcx, rcx, 0
@@ -1353,11 +1657,22 @@ $LN16@qt_static_:
 	mov	DWORD PTR [rcx], eax
 $LN6@qt_static_:
 $LN4@qt_static_:
-$LN12@qt_static_:
+$LN20@qt_static_:
 $LN9@qt_static_:
-; Line 90
+; Line 129
 	add	rsp, 72					; 00000048H
 	ret	0
+	npad	3
+$LN26@qt_static_:
+	DD	$LN10@qt_static_
+	DD	$LN11@qt_static_
+	DD	$LN12@qt_static_
+	DD	$LN13@qt_static_
+	DD	$LN14@qt_static_
+	DD	$LN15@qt_static_
+	DD	$LN16@qt_static_
+	DD	$LN17@qt_static_
+	DD	$LN18@qt_static_
 ?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z ENDP ; CWeather::qt_static_metacall
 _TEXT	ENDS
 ; Function compile flags: /Odtp
@@ -1368,69 +1683,69 @@ _id$ = 64
 _a$ = 72
 ?qt_metacall@CWeather@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z PROC ; CWeather::qt_metacall
 ; File F:\code\vs_project\Weather\CWeather\x64\Debug\moc\moc_CWeather.cpp
-; Line 116
+; Line 155
 $LN9:
 	mov	QWORD PTR [rsp+32], r9
 	mov	DWORD PTR [rsp+24], r8d
 	mov	DWORD PTR [rsp+16], edx
 	mov	QWORD PTR [rsp+8], rcx
 	sub	rsp, 40					; 00000028H
-; Line 117
+; Line 156
 	mov	r9, QWORD PTR _a$[rsp]
 	mov	r8d, DWORD PTR _id$[rsp]
 	mov	edx, DWORD PTR _c$[rsp]
 	mov	rcx, QWORD PTR this$[rsp]
 	call	QWORD PTR __imp_?qt_metacall@QMainWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 	mov	DWORD PTR _id$[rsp], eax
-; Line 118
+; Line 157
 	cmp	DWORD PTR _id$[rsp], 0
 	jge	SHORT $LN2@qt_metacal
-; Line 119
+; Line 158
 	mov	eax, DWORD PTR _id$[rsp]
 	jmp	SHORT $LN1@qt_metacal
 $LN2@qt_metacal:
-; Line 120
+; Line 159
 	cmp	DWORD PTR _c$[rsp], 0
 	jne	SHORT $LN3@qt_metacal
-; Line 121
-	cmp	DWORD PTR _id$[rsp], 1
+; Line 160
+	cmp	DWORD PTR _id$[rsp], 9
 	jge	SHORT $LN5@qt_metacal
-; Line 122
+; Line 161
 	mov	r9, QWORD PTR _a$[rsp]
 	mov	r8d, DWORD PTR _id$[rsp]
 	mov	edx, DWORD PTR _c$[rsp]
 	mov	rcx, QWORD PTR this$[rsp]
 	call	?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z ; CWeather::qt_static_metacall
 $LN5@qt_metacal:
-; Line 123
+; Line 162
 	mov	eax, DWORD PTR _id$[rsp]
-	dec	eax
+	sub	eax, 9
 	mov	DWORD PTR _id$[rsp], eax
 	jmp	SHORT $LN4@qt_metacal
 $LN3@qt_metacal:
-; Line 124
+; Line 163
 	cmp	DWORD PTR _c$[rsp], 12
 	jne	SHORT $LN6@qt_metacal
-; Line 125
-	cmp	DWORD PTR _id$[rsp], 1
+; Line 164
+	cmp	DWORD PTR _id$[rsp], 9
 	jge	SHORT $LN7@qt_metacal
-; Line 126
+; Line 165
 	mov	r9, QWORD PTR _a$[rsp]
 	mov	r8d, DWORD PTR _id$[rsp]
 	mov	edx, DWORD PTR _c$[rsp]
 	mov	rcx, QWORD PTR this$[rsp]
 	call	?qt_static_metacall@CWeather@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z ; CWeather::qt_static_metacall
 $LN7@qt_metacal:
-; Line 127
+; Line 166
 	mov	eax, DWORD PTR _id$[rsp]
-	dec	eax
+	sub	eax, 9
 	mov	DWORD PTR _id$[rsp], eax
 $LN6@qt_metacal:
 $LN4@qt_metacal:
-; Line 129
+; Line 168
 	mov	eax, DWORD PTR _id$[rsp]
 $LN1@qt_metacal:
-; Line 130
+; Line 169
 	add	rsp, 40					; 00000028H
 	ret	0
 ?qt_metacall@CWeather@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z ENDP ; CWeather::qt_metacall
@@ -1441,33 +1756,33 @@ this$ = 48
 _clname$ = 56
 ?qt_metacast@CWeather@@UEAAPEAXPEBD@Z PROC		; CWeather::qt_metacast
 ; File F:\code\vs_project\Weather\CWeather\x64\Debug\moc\moc_CWeather.cpp
-; Line 108
+; Line 147
 $LN5:
 	mov	QWORD PTR [rsp+16], rdx
 	mov	QWORD PTR [rsp+8], rcx
 	sub	rsp, 40					; 00000028H
-; Line 109
+; Line 148
 	cmp	QWORD PTR _clname$[rsp], 0
 	jne	SHORT $LN2@qt_metacas
 	xor	eax, eax
 	jmp	SHORT $LN1@qt_metacas
 $LN2@qt_metacas:
-; Line 110
-	lea	rdx, OFFSET FLAT:?qt_meta_stringdata_CWeather@@3Uqt_meta_stringdata_CWeather_t@@B+120
+; Line 149
+	lea	rdx, OFFSET FLAT:?qt_meta_stringdata_CWeather@@3Uqt_meta_stringdata_CWeather_t@@B+384
 	mov	rcx, QWORD PTR _clname$[rsp]
 	call	strcmp
 	test	eax, eax
 	jne	SHORT $LN3@qt_metacas
-; Line 111
+; Line 150
 	mov	rax, QWORD PTR this$[rsp]
 	jmp	SHORT $LN1@qt_metacas
 $LN3@qt_metacas:
-; Line 112
+; Line 151
 	mov	rdx, QWORD PTR _clname$[rsp]
 	mov	rcx, QWORD PTR this$[rsp]
 	call	QWORD PTR __imp_?qt_metacast@QMainWindow@@UEAAPEAXPEBD@Z
 $LN1@qt_metacas:
-; Line 113
+; Line 152
 	add	rsp, 40					; 00000028H
 	ret	0
 ?qt_metacast@CWeather@@UEAAPEAXPEBD@Z ENDP		; CWeather::qt_metacast
@@ -1478,11 +1793,11 @@ tv82 = 32
 this$ = 64
 ?metaObject@CWeather@@UEBAPEBUQMetaObject@@XZ PROC	; CWeather::metaObject
 ; File F:\code\vs_project\Weather\CWeather\x64\Debug\moc\moc_CWeather.cpp
-; Line 103
+; Line 142
 $LN5:
 	mov	QWORD PTR [rsp+8], rcx
 	sub	rsp, 56					; 00000038H
-; Line 104
+; Line 143
 	mov	rax, QWORD PTR this$[rsp]
 	add	rax, 8
 	mov	rcx, rax
@@ -1502,7 +1817,7 @@ $LN3@metaObject:
 	mov	QWORD PTR tv82[rsp], rax
 $LN4@metaObject:
 	mov	rax, QWORD PTR tv82[rsp]
-; Line 105
+; Line 144
 	add	rsp, 56					; 00000038H
 	ret	0
 ?metaObject@CWeather@@UEBAPEBUQMetaObject@@XZ ENDP	; CWeather::metaObject
@@ -1936,7 +2251,7 @@ __formal$ = 8
 __formal$ = 16
 ?__empty_global_delete@@YAXPEAX_K@Z PROC		; __empty_global_delete, COMDAT
 ; File F:\code\vs_project\Weather\CWeather\x64\Debug\moc\moc_CWeather.cpp
-; Line 133
+; Line 172
 	mov	QWORD PTR [rsp+16], rdx
 	mov	QWORD PTR [rsp+8], rcx
 	ret	0
@@ -1948,7 +2263,7 @@ _TEXT	SEGMENT
 __formal$ = 8
 ?__empty_global_delete@@YAXPEAX@Z PROC			; __empty_global_delete, COMDAT
 ; File F:\code\vs_project\Weather\CWeather\x64\Debug\moc\moc_CWeather.cpp
-; Line 133
+; Line 172
 	mov	QWORD PTR [rsp+8], rcx
 	ret	0
 ?__empty_global_delete@@YAXPEAX@Z ENDP			; __empty_global_delete

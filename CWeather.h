@@ -24,10 +24,10 @@ protected:
 	void mousePressEvent(QMouseEvent* event);
 	void mouseMoveEvent(QMouseEvent* event);
 	void contextMenuEvent(QContextMenuEvent* event);
+	bool eventFilter(QObject* watched, QEvent* event);
 private slots:
 	//接受天气信息
 	void SlotRelied(QNetworkReply* m_NewReply);
-private:
 	void InitView();
 	void InitConnect();
 	//发送请求
@@ -36,6 +36,11 @@ private:
 	void parseJson(QByteArray &byteArray);
 	void UpdataUI();
 	void SlotSearch();
+
+	//绘画高温函数
+	void PainterHightCurve();
+	//绘画低温函数
+	void PainterLowCurve();
 private:
 	QMenu* m_ExitMenu = nullptr;
 	QAction* m_ExitAct = nullptr;	

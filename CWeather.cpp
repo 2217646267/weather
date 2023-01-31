@@ -3,7 +3,11 @@
 #include <QJsonDocument>
 #include <QJsonArray>
 #include <QJsonObject>
+#include <QPainter>
 #include "CWeatchTool.h"
+
+// 每天平均值系数
+#define INCREMENT 3
 
 CWeather::CWeather(QWidget *parent)
 	: QMainWindow(parent)
@@ -15,6 +19,9 @@ CWeather::CWeather(QWidget *parent)
 	InitConnect();
 	//发送天气请求
 	SedWeatherRequest("广州");
+
+	ui.lblHighCurve->installEventFilter(this);
+	ui.lblLowCurve->installEventFilter(this);
 
 }
 
@@ -239,6 +246,7 @@ void CWeather::UpdataUI()
 		}
 	}	
 
+	update();
 }
 
 void CWeather::SlotRelied(QNetworkReply* m_NewReply)
@@ -265,5 +273,140 @@ void CWeather::SlotSearch()
 	}
 	SedWeatherRequest(ui.leCity->text());
 	ui.leCity->text().clear();
+}
 
+bool CWeather::eventFilter(QObject* watched, QEvent* event)
+{
+	if (watched == ui.lblHighCurve && event->type() == QEvent::Paint)
+	{
+		PainterHightCurve();
+	}
+	if (watched == ui.lblLowCurve && event->type() == QEvent::Paint)
+	{
+		PainterLowCurve();
+	}
+
+	return QWidget::eventFilter(watched, event);
+}
+
+void  CWeather::PainterHightCurve()
+{	
+	QPainter painter(ui.lblHighCurve);
+	painter.setRenderHint(QPainter::Antialiasing, true);
+
+	//1.获取	x的坐标
+	int PointX[6] = { 0 };
+
+	for (int i = 0; i < 6; i++)
+	{		
+		//星期标签的一半 减去 点的大小
+		PointX[i] =( mWeekList[i]->pos().x() + mWeekList[i]->width() / 2) - INCREMENT;
+	}
+	
+	//7天天气的总和
+	int	nSumTotal = 0;
+	//平均数量
+	int nAverage = 0;
+	for (int i = 0; i < 6; i++)
+	{		
+		nSumTotal += mDay[i].nHigh;				
+	}
+	
+	nAverage = nSumTotal / 6;
+
+	//开始绘画
+	QPen pen = painter.pen();
+	pen.setWidth(1);
+	pen.setColor(QColor(255, 170, 0));
+
+	painter.setPen(pen);
+	painter.setBrush(QColor(255, 170, 0));
+
+	//2.获取	y的坐标
+	int PointY[6] = { 0 };
+	for (int i = 0; i < 6; i++)
+	{
+		PointY[i] = (ui.lblHighCurve->height() / 2) - ((mDay[i].nHigh - nAverage ) * INCREMENT);
+		//画圆
+		painter.drawEllipse(QPoint(PointX[i], PointY[i]), 3, 3);
+		//显示圆的温度
+		painter.drawText(QPoint(PointX[i] - 8, PointY[i] - 12), QString::number(mDay[i].nHigh));
+	}
+
+	//3.绘制直线	
+	for (int i = 0; i < 5; i++)
+	{
+		if (i == 0)
+		{
+			pen.setStyle(Qt::DotLine);
+			painter.setPen(pen);
+		}
+		else
+		{
+			pen.setStyle(Qt::SolidLine);
+			painter.setPen(pen);
+		}
+		painter.drawLine(PointX[i], PointY[i], PointX[i+1], PointY[i+1]);
+	}	
+}
+
+void  CWeather::PainterLowCurve()
+{
+	QPainter painter(ui.lblLowCurve);
+	painter.setRenderHint(QPainter::Antialiasing, true);
+
+	//1.获取	x的坐标
+	int PointX[6] = { 0 };
+
+	for (int i = 0; i < 6; i++)
+	{
+		//星期标签的一半 减去 点的大小
+		PointX[i] = (mWeekList[i]->pos().x() + mWeekList[i]->width() / 2) - INCREMENT;
+	}
+
+	//7天天气的总和
+	int	nSumTotal = 0;
+	//平均数量
+	int nAverage = 0;
+	for (int i = 0; i < 6; i++)
+	{
+		nSumTotal += mDay[i].nLow;
+	}
+
+	nAverage = nSumTotal / 6;
+
+	//开始绘画
+	QPen pen = painter.pen();
+	pen.setWidth(1);
+	pen.setColor(QColor(0, 255, 255));
+
+	painter.setPen(pen);
+	painter.setBrush(QColor(0, 255, 255));
+
+	//2.获取	y的坐标
+	int PointY[6] = { 0 };
+	for (int i = 0; i < 6; i++)
+	{
+		PointY[i] = (ui.lblLowCurve->height() / 2) - ((mDay[i].nLow - nAverage) * INCREMENT);
+		//画圆
+		painter.drawEllipse(QPoint(PointX[i], PointY[i]), 3, 3);
+		//显示圆的温度
+		painter.drawText(QPoint(PointX[i] - 8, PointY[i] - 12), QString::number(mDay[i].nLow));
+	}
+
+	//3.绘制直线	
+	for (int i = 0; i < 5; i++)
+	{
+		if (i == 0)
+		{
+			pen.setStyle(Qt::DotLine);
+			painter.setPen(pen);
+		}
+		else
+		{
+			pen.setStyle(Qt::SolidLine);
+			painter.setPen(pen);
+		}
+		painter.drawLine(PointX[i], PointY[i], PointX[i + 1], PointY[i + 1]);
+	}
 }
